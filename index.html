@@ -197,6 +197,11 @@ function updateBadge(){
   const b=document.getElementById("due-badge");
   b.style.display=n>0?"flex":"none";
   b.textContent=n;
+  // OS-level badge on the installed app icon (Badging API; no-op where unsupported)
+  if("setAppBadge" in navigator){
+    if(n>0)navigator.setAppBadge(n).catch(()=>{});
+    else navigator.clearAppBadge().catch(()=>{});
+  }
 }
 
 // ─── Navigation ───────────────────────────────────────────────────────────
@@ -421,6 +426,9 @@ function renderStudy(app){
 loadState();
 fetch("data.json").then(r=>r.json()).then(d=>{DATA=d;render();});
 if("serviceWorker" in navigator){navigator.serviceWorker.register("sw.js").catch(()=>{});}
+// Cards come due over time — refresh the badge whenever the app returns to view
+document.addEventListener("visibilitychange",()=>{if(!document.hidden)updateBadge();});
+setInterval(updateBadge, 60000);
 </script>
 </body>
 </html>

@@ -1,5 +1,5 @@
 // ChatJPT service worker — bump CACHE_VERSION on every content update
-const CACHE_VERSION = "chatjpt-v1";
+const CACHE_VERSION = "chatjpt-v2";
 const CORE = ["./", "./index.html", "./manifest.json", "./icon-192.png", "./icon-512.png"];
 
 self.addEventListener("install", (e) => {
