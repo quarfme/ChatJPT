@@ -1,15 +1,447 @@
-{
-  "name": "ChatJPT",
-  "short_name": "ChatJPT",
-  "description": "Japanese phrasebook with audio and spaced repetition — Japan Sep 2026",
-  "start_url": "./index.html",
-  "scope": "./",
-  "display": "standalone",
-  "orientation": "portrait",
-  "background_color": "#080c18",
-  "theme_color": "#0d1120",
-  "icons": [
-    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
-    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
-  ]
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,viewport-fit=cover">
+<meta name="theme-color" content="#0d1120">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<title>ChatJPT</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+body{font-family:system-ui,-apple-system,sans-serif;background:#080c18;color:#fff;min-height:100vh;padding-bottom:70px}
+button{font-family:inherit}
+/* Header */
+.hdr{background:#0d1120;border-bottom:1px solid #1a2035;position:sticky;top:0;z-index:20;padding:14px 16px 12px;padding-top:calc(14px + env(safe-area-inset-top))}
+.hdr-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px}
+h1{font-size:17px;font-weight:700}
+.sub{font-size:11px;color:#6b7a99;margin-top:1px}
+.spd{display:flex;gap:6px}
+.sbtn{background:#161d2f;color:#8b9ac0;border:1px solid #2a3550;border-radius:20px;padding:4px 12px;font-size:12px;cursor:pointer}
+.sbtn.on{background:#1d4ed8;color:#fff;border-color:#3b6fb5}
+.tabs{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;padding-bottom:1px}
+.tabs::-webkit-scrollbar{display:none}
+.tab{background:#161d2f;color:#8b9ac0;border:1px solid #2a3550;border-radius:20px;padding:5px 14px;font-size:12px;white-space:nowrap;cursor:pointer;flex-shrink:0}
+.tab.on{background:#e2e8f0;color:#0d1120;font-weight:700;border-color:#e2e8f0}
+/* Banner */
+.banner{background:#1a2440;border:1px solid #2d3f6b;border-radius:10px;margin:12px 14px 0;padding:9px 12px;font-size:12px;color:#b8c6e8;display:flex;justify-content:space-between;align-items:center;gap:10px}
+.banner button{background:#2d3f6b;color:#cdd9f5;border:none;border-radius:7px;padding:5px 12px;font-size:12px;font-weight:600;cursor:pointer;white-space:nowrap}
+/* Cards */
+.cards{padding:14px}
+.card{border-radius:14px;margin-bottom:10px;overflow:hidden;position:relative}
+.card.say{background:#0d1120;border:1px solid #26324f}
+.card.hear{background:#0a1626;border:2px solid #2563a8}
+.card.rescue{background:#1c1605;border:2px dashed #b5851e}
+.cbody{padding:14px 74px 12px 14px}
+.corner{position:absolute;top:10px;right:10px;display:flex;gap:6px;z-index:2}
+.icobtn{width:28px;height:28px;border-radius:8px;background:#1c2540;border:1px solid #34416b;color:#8b9ac0;font-size:14px;line-height:1;cursor:pointer;display:flex;align-items:center;justify-content:center;padding:0}
+.icobtn:active{background:#34416b}
+.icobtn.starred{background:#3a2c05;border-color:#b5851e;color:#f0c050}
+.crow{display:flex;align-items:center;gap:7px;margin-bottom:8px;flex-wrap:wrap}
+.clbl{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:#9fb0d4}
+.dirtag{font-size:10px;font-weight:700;padding:2px 8px;border-radius:10px;text-transform:uppercase;letter-spacing:.05em}
+.dirtag.hear{background:#0e2d4a;color:#7fb8ee;border:1px solid #2563a8}
+.dirtag.rescue{background:#3a2c05;color:#e8b94a;border:1px solid #b5851e}
+.dirtag.say{background:#1a2238;color:#8b9ac0;border:1px solid #34416b}
+.eng{font-size:15px;font-weight:600;line-height:1.35;margin-bottom:4px}
+.jp{font-size:18px;letter-spacing:.04em;margin-bottom:12px;font-weight:500}
+.say .jp{color:#4a5575}.hear .jp{color:#3a5a7a}.rescue .jp{color:#6a5a2a}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:13px}
+.chip{border-radius:8px;padding:5px 9px 4px;text-align:center;min-width:46px}
+.chip .rt{font-size:8px;font-weight:800;text-transform:uppercase;letter-spacing:.08em;opacity:.85;margin-bottom:2px}
+.chip .r{font-size:12px;font-weight:700;line-height:1.15}
+.chip .e{font-size:10px;opacity:.7;line-height:1.15;margin-top:1px}
+.chip.n{background:#15294a;border:1.5px solid #3b7fd4;color:#a8c8f5}
+.chip.v{background:#3a2705;border:1.5px solid #d68a1e;color:#f0bf6a}
+.chip.p{background:#23252e;border:1.5px dashed #9aa0ac;color:#cfd4de}
+.chip.a{background:#0a2e33;border:1.5px double #3fb8cc;color:#9fe3f0}
+.pbtn{border:none;border-radius:10px;padding:9px 18px;font-size:13px;font-weight:600;cursor:pointer;display:flex;align-items:center;gap:6px;color:#fff}
+.pbtn.say-s{background:#1d4ed8}.pbtn.hear-s{background:#1565a8}.pbtn.rescue-s{background:#9c6f12}
+.pbtn.active{background:#6d3fd4}
+.replies{margin-top:13px;border-top:1px dashed #2a3a5a;padding-top:11px}
+.rhead{font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:.1em;color:#7a9ad0;margin-bottom:9px}
+.rrow{display:flex;align-items:center;gap:10px;margin-bottom:8px}
+.rplay{flex-shrink:0;width:30px;height:30px;border-radius:8px;background:#16325a;border:1px solid #2d5894;color:#9fc2f0;font-size:12px;cursor:pointer;display:flex;align-items:center;justify-content:center;padding:0}
+.rplay.active{background:#6d3fd4;border-color:#6d3fd4;color:#fff}
+.rtext{flex:1;min-width:0}
+.rrom{font-size:13px;font-weight:700;color:#bcd2f5;line-height:1.25}
+.reng{font-size:11px;color:#7889ab;line-height:1.25;margin-top:1px}
+.rchips{display:flex;flex-wrap:wrap;gap:4px;margin:6px 0 10px 40px}
+.rchips .chip{padding:3px 7px 3px;min-width:38px}
+.rchips .chip .rt{font-size:7px}
+.rchips .chip .r{font-size:10px}
+.rchips .chip .e{font-size:9px}
+.rtextonly{font-size:12px;color:#9fb0d4;line-height:1.5;background:#11203a;border:1px solid #243d63;border-radius:8px;padding:8px 10px}
+.tip{border-top:1px solid;padding:7px 14px;font-size:11px;font-style:italic}
+.say .tip{border-color:#26324f;color:#6b7a99}
+.hear .tip{border-color:#1a3a5a;color:#5a85b0}
+.rescue .tip{border-color:#3a2c05;color:#a8893a}
+.empty{text-align:center;padding:50px 20px;color:#6b7a99;font-size:13px;line-height:1.6}
+/* Legend */
+.legend{margin:0 14px 20px;background:#0d1120;border:1px solid #26324f;border-radius:14px;padding:16px}
+.lt{font-size:10px;color:#5a6a8a;text-transform:uppercase;letter-spacing:.14em;font-weight:700;margin-bottom:10px}
+.lr{display:flex;gap:9px;align-items:center;margin-bottom:8px}
+.lchip{font-size:8px;font-weight:800;text-transform:uppercase;padding:3px 7px;border-radius:6px;flex-shrink:0;letter-spacing:.06em}
+.lchip.n{background:#15294a;border:1.5px solid #3b7fd4;color:#a8c8f5}
+.lchip.v{background:#3a2705;border:1.5px solid #d68a1e;color:#f0bf6a}
+.lchip.p{background:#23252e;border:1.5px dashed #9aa0ac;color:#cfd4de}
+.lchip.a{background:#0a2e33;border:1.5px double #3fb8cc;color:#9fe3f0}
+.ll{font-size:11px;color:#8b9ac0;line-height:1.4}
+.div{border-top:1px solid #26324f;margin:12px 0}
+.ngrid{display:grid;grid-template-columns:repeat(5,1fr);gap:5px;margin-bottom:8px}
+.nc{background:#161d2f;border:1px solid #2a3550;border-radius:7px;padding:5px 2px;text-align:center}
+.nb{font-size:13px;font-weight:700;color:#a8c8f5}
+.ns{font-size:10px;color:#6b7a99;margin-top:1px}
+.px{font-size:11px;color:#8b9ac0;line-height:1.9}
+.px span{color:#a8c8f5;font-weight:600}
+.note{font-size:11px;color:#6b7a99;line-height:1.6;margin-top:10px}
+/* Bottom nav */
+.nav{position:fixed;bottom:0;left:0;right:0;background:#0d1120;border-top:1px solid #1a2035;display:flex;z-index:30;padding-bottom:env(safe-area-inset-bottom)}
+.navbtn{flex:1;background:none;border:none;color:#5a6a8a;font-size:11px;font-weight:600;padding:9px 0 7px;cursor:pointer;display:flex;flex-direction:column;align-items:center;gap:2px;position:relative}
+.navbtn .ic{font-size:18px}
+.navbtn.on{color:#7fb0f0}
+.badge{position:absolute;top:4px;right:calc(50% - 24px);background:#c2410c;color:#fff;font-size:10px;font-weight:800;min-width:17px;height:17px;border-radius:9px;display:flex;align-items:center;justify-content:center;padding:0 4px}
+/* Study */
+.study{padding:20px 16px 30px;max-width:520px;margin:0 auto}
+.sstats{display:flex;gap:8px;margin-bottom:16px}
+.sstat{flex:1;background:#0d1120;border:1px solid #26324f;border-radius:12px;padding:10px;text-align:center}
+.sstat .v{font-size:20px;font-weight:800;color:#a8c8f5}
+.sstat .l{font-size:10px;color:#6b7a99;text-transform:uppercase;letter-spacing:.08em;margin-top:2px}
+.scard{background:#0d1120;border:1px solid #26324f;border-radius:16px;padding:26px 20px;text-align:center;min-height:250px;display:flex;flex-direction:column;justify-content:center}
+.sq-dir{font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:.12em;color:#7a9ad0;margin-bottom:14px}
+.sq-eng{font-size:19px;font-weight:700;line-height:1.4}
+.sq-jp{font-size:17px;color:#3a4a70;margin-top:16px;letter-spacing:.04em}
+.sq-rom{font-size:17px;font-weight:700;color:#bcd2f5;margin-top:14px;line-height:1.4}
+.sq-note{font-size:11px;color:#6b7a99;font-style:italic;margin-top:12px;line-height:1.5}
+.sq-audio{margin:16px auto 0}
+.reveal{margin-top:22px;background:#1d4ed8;color:#fff;border:none;border-radius:12px;padding:13px 28px;font-size:14px;font-weight:700;cursor:pointer;width:100%}
+.grades{display:grid;grid-template-columns:repeat(4,1fr);gap:7px;margin-top:20px}
+.gbtn{border:none;border-radius:11px;padding:12px 4px;font-size:12px;font-weight:700;cursor:pointer;color:#fff}
+.gbtn .gi{display:block;font-size:9px;font-weight:600;opacity:.75;margin-top:2px}
+.g-again{background:#7a2e12}.g-hard{background:#7a5b10}.g-good{background:#1c5a8a}.g-easy{background:#1a6b4a}
+.sdone{text-align:center;padding:60px 20px;color:#8b9ac0;line-height:1.7;font-size:14px}
+.sdone .big{font-size:38px;margin-bottom:12px}
+.stools{display:flex;gap:8px;margin-top:16px}
+.stool{flex:1;background:#161d2f;color:#8b9ac0;border:1px solid #2a3550;border-radius:10px;padding:9px;font-size:12px;font-weight:600;cursor:pointer}
+.hint{font-size:11px;color:#5a6a8a;text-align:center;margin-top:14px;line-height:1.5}
+</style>
+</head>
+<body>
+<div id="app"></div>
+<nav class="nav">
+  <button class="navbtn on" id="nav-book" onclick="go('book')"><span class="ic">&#128214;</span>Phrases</button>
+  <button class="navbtn" id="nav-study" onclick="go('study')"><span class="ic">&#127919;</span>Study<span class="badge" id="due-badge" style="display:none">0</span></button>
+</nav>
+
+<script>
+// ─── State ────────────────────────────────────────────────────────────────
+let DATA = [];
+const LS = {
+  removed: "chatjpt_removed",
+  starred: "chatjpt_starred",
+  srs:     "chatjpt_srs",       // { phraseId: {reps, interval(min), ease, due(epoch ms)} }
+};
+let view = "book", cat = "All", slow = true;
+let removed = new Set(), starred = new Set(), srs = {};
+let cur = null, curBtn = null;
+let session = [];           // ids queued for this study session
+let sessionIdx = 0, revealed = false, doneCount = 0;
+
+function loadState(){
+  try{ removed = new Set(JSON.parse(localStorage.getItem(LS.removed)||"[]")); }catch(e){}
+  try{ starred = new Set(JSON.parse(localStorage.getItem(LS.starred)||"[]")); }catch(e){}
+  try{ srs = JSON.parse(localStorage.getItem(LS.srs)||"{}"); }catch(e){}
 }
+function save(key,val){ try{ localStorage.setItem(key, JSON.stringify(val)); }catch(e){} }
+function persistAll(){ save(LS.removed,[...removed]); save(LS.starred,[...starred]); save(LS.srs,srs); }
+
+// ─── Audio ────────────────────────────────────────────────────────────────
+function stopAudio(){
+  if(cur){cur.pause();cur=null;}
+  if(curBtn){curBtn.classList.remove("active");curBtn.innerHTML=curBtn.dataset.lbl;curBtn=null;}
+}
+function playClip(aid, btn){
+  if(btn && curBtn===btn){stopAudio();return;}
+  stopAudio();
+  const a=new Audio("audio/p"+aid+".mp3");
+  a.playbackRate=slow?0.72:1.0;
+  if("preservesPitch" in a)a.preservesPitch=true;
+  cur=a;
+  if(btn){curBtn=btn;btn.classList.add("active");btn.innerHTML=btn.dataset.stop||"&#9632;";}
+  a.onended=stopAudio;a.onerror=stopAudio;
+  a.play().catch(stopAudio);
+}
+function setSpeed(s){slow=s;renderHeaderSpeed();if(cur)cur.playbackRate=s?0.72:1.0;}
+
+// ─── SRS (simplified SM-2) ────────────────────────────────────────────────
+// intervals in minutes; ease multiplies interval on Good/Easy
+function initCard(){ return {reps:0, interval:0, ease:2.5, due:Date.now()}; }
+function grade(id, g){ // g: 0 again, 1 hard, 2 good, 3 easy
+  const c = srs[id] || initCard();
+  const MIN=60000;
+  if(g===0){ c.reps=0; c.interval=10; c.ease=Math.max(1.3,c.ease-0.2); }
+  else if(g===1){ c.interval=Math.max(10,Math.round(c.interval*1.2)); c.ease=Math.max(1.3,c.ease-0.15); c.reps++; }
+  else {
+    if(c.reps===0) c.interval = (g===3)? 4320 : 1440;            // first pass: 1d / 3d
+    else c.interval = Math.round(c.interval * c.ease * (g===3?1.3:1));
+    if(g===3) c.ease += 0.1;
+    c.reps++;
+  }
+  c.due = Date.now() + c.interval*MIN;
+  srs[id]=c; save(LS.srs,srs);
+}
+function dueIds(){
+  const now=Date.now();
+  return [...starred].filter(id=>{
+    if(removed.has(id))return false;
+    const c=srs[id];
+    return !c || c.due<=now;
+  });
+}
+function updateBadge(){
+  const n=dueIds().length;
+  const b=document.getElementById("due-badge");
+  b.style.display=n>0?"flex":"none";
+  b.textContent=n;
+  // OS-level badge on the installed app icon (Badging API; no-op where unsupported)
+  if("setAppBadge" in navigator){
+    if(n>0)navigator.setAppBadge(n).catch(()=>{});
+    else navigator.clearAppBadge().catch(()=>{});
+  }
+}
+
+// ─── Navigation ───────────────────────────────────────────────────────────
+function go(v){
+  stopAudio();
+  view=v;
+  document.getElementById("nav-book").classList.toggle("on",v==="book");
+  document.getElementById("nav-study").classList.toggle("on",v==="study");
+  if(v==="study"){startSession();}
+  render();
+}
+
+// ─── Phrasebook actions ───────────────────────────────────────────────────
+function toggleStar(id){
+  if(starred.has(id)){starred.delete(id);delete srs[id];}
+  else starred.add(id);
+  persistAll();render();
+}
+function removeCard(id){stopAudio();removed.add(id);persist();render();}
+function persist(){persistAll();}
+function restoreAll(){removed.clear();persistAll();render();}
+
+// ─── Study session ────────────────────────────────────────────────────────
+function startSession(){
+  session=dueIds();
+  // shuffle
+  for(let i=session.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[session[i],session[j]]=[session[j],session[i]];}
+  sessionIdx=0;revealed=false;doneCount=0;
+}
+function doGrade(g){
+  const id=session[sessionIdx];
+  grade(id,g);
+  doneCount++;
+  if(g===0){ session.push(id); } // failed: requeue at end of session
+  sessionIdx++;revealed=false;
+  render();
+}
+function exportProgress(){
+  const blob=new Blob([JSON.stringify({starred:[...starred],removed:[...removed],srs:srs,exported:new Date().toISOString()},null,1)],{type:"application/json"});
+  const a=document.createElement("a");
+  a.href=URL.createObjectURL(blob);
+  a.download="chatjpt-progress.json";
+  a.click();
+}
+function importProgress(){
+  const inp=document.createElement("input");
+  inp.type="file";inp.accept=".json";
+  inp.onchange=(e)=>{
+    const f=e.target.files[0];if(!f)return;
+    const rd=new FileReader();
+    rd.onload=()=>{
+      try{
+        const d=JSON.parse(rd.result);
+        if(d.starred)starred=new Set(d.starred);
+        if(d.removed)removed=new Set(d.removed);
+        if(d.srs)srs=d.srs;
+        persistAll();render();
+        alert("Progress imported.");
+      }catch(err){alert("Could not read that file.");}
+    };
+    rd.readAsText(f);
+  };
+  inp.click();
+}
+
+// ─── Rendering ────────────────────────────────────────────────────────────
+const CC={Hotel:"#38bdf8",Restaurant:"#fb923c",General:"#94a3b8",Disney:"#a78bfa",Responses:"#2dd4bf","Small talk":"#f0abfc",Rescue:"#fb923c"};
+const ROLE={n:"noun",v:"verb",p:"part",a:"adj"};
+
+function renderHeaderSpeed(){
+  const bs=document.getElementById("bs"),bn=document.getElementById("bn");
+  if(bs){bs.classList.toggle("on",slow);bn.classList.toggle("on",!slow);}
+}
+
+function render(){
+  updateBadge();
+  const app=document.getElementById("app");
+  if(view==="book")renderBook(app);
+  else renderStudy(app);
+}
+
+function renderBook(app){
+  const cats=["All","Starred",...new Set(DATA.map(p=>p.category))];
+  let shown = cat==="All"?DATA : cat==="Starred"?DATA.filter(p=>starred.has(p.id)) : DATA.filter(p=>p.category===cat);
+  shown=shown.filter(p=>!removed.has(p.id));
+
+  let html=`<div class="hdr">
+    <div class="hdr-top">
+      <div><h1>ChatJPT</h1><div class="sub">Japan Sep 2026 &middot; ${DATA.length} phrases</div></div>
+      <div class="spd">
+        <button class="sbtn${slow?" on":""}" id="bs" onclick="setSpeed(true)">Slow</button>
+        <button class="sbtn${slow?"":" on"}" id="bn" onclick="setSpeed(false)">Normal</button>
+      </div>
+    </div>
+    <div class="tabs">${cats.map(c=>`<button class="tab${c===cat?" on":""}" onclick="cat='${c}';render()">${c==="Starred"?"&#9733; Starred":c}</button>`).join("")}</div>
+  </div>`;
+
+  if(removed.size>0)html+=`<div class="banner"><span>${removed.size} phrase${removed.size>1?"s":""} hidden</span><button onclick="restoreAll()">Restore all</button></div>`;
+
+  html+=`<div class="cards">`;
+  if(shown.length===0){
+    html+=`<div class="empty">${cat==="Starred"?"No starred phrases yet.<br>Tap the &#9734; on any card to add it to your study deck.":"No phrases here."}</div>`;
+  }else{
+    html+=shown.map(p=>{
+      const dtag=p.dir==="hear"?'<span class="dirtag hear">&#128066; You hear</span>':p.dir==="rescue"?'<span class="dirtag rescue">&#127384; Rescue</span>':'<span class="dirtag say">You say</span>';
+      const bs=p.dir==="hear"?"hear-s":p.dir==="rescue"?"rescue-s":"say-s";
+      const lbl=p.dir==="hear"?"Hear it":"Play audio";
+      const isStar=starred.has(p.id);
+      let rep="";
+      if(p.replyList&&p.replyList.length){
+        rep=`<div class="replies"><div class="rhead">&#8618; You can say</div>`+p.replyList.map(r=>
+          `<div class="rrow"><button class="rplay" data-lbl="&#9654;" data-stop="&#9632;" onclick="playClip(${r.id},this)">&#9654;</button><div class="rtext"><div class="rrom">${r.r}</div><div class="reng">${r.e}</div></div></div>`+
+          (r.words?`<div class="rchips">${r.words.map(w=>`<div class="chip ${w.t}"><div class="rt">${ROLE[w.t]}</div><div class="r">${w.r}</div><div class="e">${w.e}</div></div>`).join("")}</div>`:"")).join("")+`</div>`;
+      }else if(p.reply_text){
+        rep=`<div class="replies"><div class="rhead">&#8618; You can say</div><div class="rtextonly">${p.reply_text}</div></div>`;
+      }
+      return `<div class="card ${p.dir}">
+<div class="corner">
+  <button class="icobtn${isStar?" starred":""}" onclick="toggleStar(${p.id})" title="${isStar?"Remove from study deck":"Add to study deck"}">${isStar?"&#9733;":"&#9734;"}</button>
+  <button class="icobtn" onclick="removeCard(${p.id})" title="Hide this phrase">&#10005;</button>
+</div>
+<div class="cbody">
+<div class="crow"><span class="clbl" style="color:${CC[p.category]||"#9fb0d4"}">${p.category}</span>${dtag}</div>
+<div class="eng">${p.english}</div>
+<div class="jp">${p.japanese}</div>
+<div class="chips">${p.words.map(w=>`<div class="chip ${w.t}"><div class="rt">${ROLE[w.t]}</div><div class="r">${w.r}</div><div class="e">${w.e}</div></div>`).join("")}</div>
+<button class="pbtn ${bs}" data-lbl="${lbl}" data-stop="Stop" onclick="playClip(${p.id},this)">${lbl}</button>
+${rep}
+</div>
+${p.note?`<div class="tip">&#128161; ${p.note}</div>`:""}
+</div>`;
+    }).join("");
+  }
+  html+=`</div>`;
+
+  html+=`<div class="legend">
+  <div class="lt">Word role &mdash; labelled on every chip</div>
+  <div class="lr"><span class="lchip n">noun</span><span class="ll">Content word &mdash; the thing being talked about (solid blue)</span></div>
+  <div class="lr"><span class="lchip v">verb</span><span class="ll">The action &mdash; always last in a Japanese sentence (solid orange)</span></div>
+  <div class="lr"><span class="lchip p">part</span><span class="ll">Particle &mdash; grammar glue: topic / object / direction / question (dashed grey)</span></div>
+  <div class="lr"><span class="lchip a">adj</span><span class="ll">Adjective / descriptive word (double cyan border)</span></div>
+  <div class="div"></div>
+  <div class="lt">Recognising prices &mdash; listen for en (yen)</div>
+  <div class="ngrid">
+    <div class="nc"><div class="nb">1</div><div class="ns">ichi</div></div><div class="nc"><div class="nb">2</div><div class="ns">ni</div></div><div class="nc"><div class="nb">3</div><div class="ns">san</div></div><div class="nc"><div class="nb">4</div><div class="ns">yon</div></div><div class="nc"><div class="nb">5</div><div class="ns">go</div></div>
+    <div class="nc"><div class="nb">6</div><div class="ns">roku</div></div><div class="nc"><div class="nb">7</div><div class="ns">nana</div></div><div class="nc"><div class="nb">8</div><div class="ns">hachi</div></div><div class="nc"><div class="nb">9</div><div class="ns">kyu</div></div><div class="nc"><div class="nb">10</div><div class="ns">ju</div></div>
+    <div class="nc"><div class="nb">100</div><div class="ns">hyaku</div></div><div class="nc"><div class="nb">1K</div><div class="ns">sen</div></div><div class="nc"><div class="nb">10K</div><div class="ns">man</div></div>
+  </div>
+  <div class="px">&yen;500 &rarr; <span>go-hyaku en</span><br>&yen;1,000 &rarr; <span>sen en</span><br>&yen;3,000 &rarr; <span>san-zen en</span> (san+sen fuse)<br>&yen;10,000 &rarr; <span>ichi-man en</span><br>&yen;15,000 &rarr; <span>ichi-man go-sen en</span></div>
+  <div class="note"><strong style="color:#8b9ac0">Key pattern:</strong> Japanese is verb-last. English says &ldquo;Can I have hot water?&rdquo; &mdash; Japanese says <em>hot water &rarr; [object] &rarr; may I receive &rarr; ?</em></div>
+  </div>`;
+  app.innerHTML=html;
+}
+
+function renderStudy(app){
+  const deckSize=[...starred].filter(id=>!removed.has(id)).length;
+  const remain=session.length-sessionIdx;
+
+  let html=`<div class="hdr"><div class="hdr-top">
+    <div><h1>Study</h1><div class="sub">Spaced repetition &middot; deck of ${deckSize}</div></div>
+    <div class="spd">
+      <button class="sbtn${slow?" on":""}" id="bs" onclick="setSpeed(true)">Slow</button>
+      <button class="sbtn${slow?"":" on"}" id="bn" onclick="setSpeed(false)">Normal</button>
+    </div>
+  </div></div><div class="study">`;
+
+  html+=`<div class="sstats">
+    <div class="sstat"><div class="v">${remain>0?remain:0}</div><div class="l">Due now</div></div>
+    <div class="sstat"><div class="v">${doneCount}</div><div class="l">Done today</div></div>
+    <div class="sstat"><div class="v">${deckSize}</div><div class="l">In deck</div></div>
+  </div>`;
+
+  if(deckSize===0){
+    html+=`<div class="sdone"><div class="big">&#9734;</div>Your study deck is empty.<br>Go to <strong>Phrases</strong> and tap the star on cards you want to learn.</div>`;
+  }else if(sessionIdx>=session.length){
+    html+=`<div class="sdone"><div class="big">&#127881;</div>All caught up!<br>Nothing due right now &mdash; come back later.<br><span style="font-size:12px;color:#5a6a8a">Cards return on a schedule: minutes at first, then days as you get them right.</span></div>`;
+  }else{
+    const p=DATA.find(x=>x.id===session[sessionIdx]);
+    const dirLabel=p.dir==="hear"?"&#128066; You hear this &mdash; recall the meaning &amp; your reply":"You want to say&hellip;";
+    html+=`<div class="scard">`;
+    if(p.dir==="hear"){
+      // Hear cards: prompt with AUDIO+Japanese, recall meaning
+      html+=`<div class="sq-dir">${dirLabel}</div>
+      <button class="pbtn hear-s sq-audio" data-lbl="&#9654; Play" data-stop="&#9632; Stop" onclick="playClip(${p.id},this)">&#9654; Play</button>
+      <div class="sq-jp" style="color:#3a5a7a">${p.japanese}</div>`;
+      if(revealed){
+        html+=`<div class="sq-rom" style="margin-top:18px">${p.english}</div>`;
+        if(p.replyList&&p.replyList.length){
+          const r0=p.replyList[0];
+          html+=`<div class="sq-note">Reply: <strong style="color:#9fc2f0">${r0.r}</strong> &mdash; ${r0.e}</div>
+          <button class="pbtn say-s sq-audio" data-lbl="&#9654; Play reply (your voice)" data-stop="&#9632; Stop" onclick="playClip(${r0.id},this)">&#9654; Play reply (your voice)</button>`;
+        }
+      }
+    }else{
+      // Say cards: prompt with English, recall the Japanese
+      html+=`<div class="sq-dir">${dirLabel}</div>
+      <div class="sq-eng">${p.english}</div>`;
+      if(revealed){
+        html+=`<div class="sq-rom">${p.romaji}</div>
+        <div class="sq-jp">${p.japanese}</div>
+        <button class="pbtn ${p.dir==="rescue"?"rescue-s":"say-s"} sq-audio" data-lbl="&#9654; Play" data-stop="&#9632; Stop" onclick="playClip(${p.id},this)">&#9654; Play</button>`;
+        if(p.note)html+=`<div class="sq-note">&#128161; ${p.note}</div>`;
+      }
+    }
+    if(!revealed){
+      html+=`<button class="reveal" onclick="revealed=true;render();${p.dir==="say"||p.dir==="rescue"?"":""}">Show answer</button>`;
+    }
+    html+=`</div>`;
+    if(revealed){
+      html+=`<div class="grades">
+        <button class="gbtn g-again" onclick="doGrade(0)">Again<span class="gi">&lt;10 min</span></button>
+        <button class="gbtn g-hard" onclick="doGrade(1)">Hard<span class="gi">short</span></button>
+        <button class="gbtn g-good" onclick="doGrade(2)">Good<span class="gi">longer</span></button>
+        <button class="gbtn g-easy" onclick="doGrade(3)">Easy<span class="gi">much longer</span></button>
+      </div>`;
+    }
+    html+=`<div class="hint">Say it out loud before revealing &mdash; recall practice is what makes it stick.</div>`;
+  }
+
+  html+=`<div class="stools">
+    <button class="stool" onclick="exportProgress()">&#11015; Export progress</button>
+    <button class="stool" onclick="importProgress()">&#11014; Import</button>
+  </div></div>`;
+  app.innerHTML=html;
+}
+
+// ─── Boot ─────────────────────────────────────────────────────────────────
+loadState();
+fetch("data.json").then(r=>r.json()).then(d=>{DATA=d;render();});
+if("serviceWorker" in navigator){navigator.serviceWorker.register("sw.js").catch(()=>{});}
+// Cards come due over time — refresh the badge whenever the app returns to view
+document.addEventListener("visibilitychange",()=>{if(!document.hidden)updateBadge();});
+setInterval(updateBadge, 60000);
+</script>
+</body>
+</html>
