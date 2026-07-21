@@ -1,0 +1,1833 @@
+[
+ {
+  "id": 1,
+  "dir": "say",
+  "category": "Hotel",
+  "english": "Do you have a baby bed?",
+  "japanese": "ベビーベッドって、ありますか？",
+  "romaji": "bebī beddo tte, arimasu ka?",
+  "note": "tte softens it — you sound like you're wondering, not demanding",
+  "words": [
+   {
+    "r": "bebī beddo",
+    "e": "baby bed",
+    "t": "n"
+   },
+   {
+    "r": "tte",
+    "e": "speaking of…",
+    "t": "p"
+   },
+   {
+    "r": "arimasu",
+    "e": "have / exist",
+    "t": "v"
+   },
+   {
+    "r": "ka",
+    "e": "?",
+    "t": "p"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 2,
+  "dir": "say",
+  "category": "Hotel",
+  "english": "Could we have a high chair for the meal?",
+  "japanese": "お食事のとき、ベビーチェアをお願いできますか？",
+  "romaji": "o-shokuji no toki, bebī chea o onegai dekimasu ka?",
+  "note": "Say this before mealtime at the ryokan, not mid-seating",
+  "words": [
+   {
+    "r": "o-shokuji",
+    "e": "meal [polite]",
+    "t": "n"
+   },
+   {
+    "r": "no",
+    "e": "of",
+    "t": "p"
+   },
+   {
+    "r": "toki",
+    "e": "when / time",
+    "t": "n"
+   },
+   {
+    "r": "bebī chea",
+    "e": "high chair",
+    "t": "n"
+   },
+   {
+    "r": "o",
+    "e": "[object]",
+    "t": "p"
+   },
+   {
+    "r": "onegai dekimasu",
+    "e": "could I ask for",
+    "t": "v"
+   },
+   {
+    "r": "ka",
+    "e": "?",
+    "t": "p"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 3,
+  "dir": "say",
+  "category": "Hotel",
+  "english": "Could I have some hot water?",
+  "japanese": "お湯をいただけますか？",
+  "romaji": "o-yu o itadakemasu ka?",
+  "note": "For warming milk or formula",
+  "words": [
+   {
+    "r": "o-yu",
+    "e": "hot water [polite]",
+    "t": "n"
+   },
+   {
+    "r": "o",
+    "e": "[object]",
+    "t": "p"
+   },
+   {
+    "r": "itadakemasu",
+    "e": "may I receive",
+    "t": "v"
+   },
+   {
+    "r": "ka",
+    "e": "?",
+    "t": "p"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 4,
+  "dir": "say",
+  "category": "Hotel",
+  "english": "Could we have a few more towels?",
+  "japanese": "タオルをもう少しいただけますか？",
+  "romaji": "taoru o mō sukoshi itadakemasu ka?",
+  "note": "mō sukoshi = a little more — polite, not greedy-sounding",
+  "words": [
+   {
+    "r": "taoru",
+    "e": "towel(s)",
+    "t": "n"
+   },
+   {
+    "r": "o",
+    "e": "[object]",
+    "t": "p"
+   },
+   {
+    "r": "mo",
+    "e": "more",
+    "t": "n"
+   },
+   {
+    "r": "sukoshi",
+    "e": "a little",
+    "t": "n"
+   },
+   {
+    "r": "itadakemasu",
+    "e": "may I receive",
+    "t": "v"
+   },
+   {
+    "r": "ka",
+    "e": "?",
+    "t": "p"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 5,
+  "dir": "say",
+  "category": "Hotel",
+  "english": "Do you have a yukata for children?",
+  "japanese": "子ども用の浴衣はありますか？",
+  "romaji": "kodomo-yō no yukata wa arimasu ka?",
+  "note": "Most ryokans have these but may not set them out automatically",
+  "words": [
+   {
+    "r": "kodomo",
+    "e": "child",
+    "t": "n"
+   },
+   {
+    "r": "yo no",
+    "e": "for [purpose]",
+    "t": "p"
+   },
+   {
+    "r": "yukata",
+    "e": "yukata robe",
+    "t": "n"
+   },
+   {
+    "r": "wa",
+    "e": "[topic]",
+    "t": "p"
+   },
+   {
+    "r": "arimasu",
+    "e": "have / exist",
+    "t": "v"
+   },
+   {
+    "r": "ka",
+    "e": "?",
+    "t": "p"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 6,
+  "dir": "say",
+  "category": "Hotel",
+  "english": "Until what time can we use the large bath?",
+  "japanese": "大浴場は何時まで使えますか？",
+  "romaji": "daiyokujō wa nanji made tsukaemasu ka?",
+  "note": "Ask this on arrival at Yoshiike and Kawane Onsen",
+  "words": [
+   {
+    "r": "daiyokujo",
+    "e": "communal bath",
+    "t": "n"
+   },
+   {
+    "r": "wa",
+    "e": "[topic]",
+    "t": "p"
+   },
+   {
+    "r": "nanji",
+    "e": "what time",
+    "t": "n"
+   },
+   {
+    "r": "made",
+    "e": "until",
+    "t": "p"
+   },
+   {
+    "r": "tsukaemasu",
+    "e": "can use",
+    "t": "v"
+   },
+   {
+    "r": "ka",
+    "e": "?",
+    "t": "p"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 7,
+  "dir": "say",
+  "category": "Restaurant",
+  "english": "Two adults, one child — could we have a high chair?",
+  "japanese": "大人二人と、子ども一人なんですが、ベビーチェアをお願いできますか？",
+  "romaji": "otona futari to, kodomo hitori nan desu ga, bebī chea o onegai dekimasu ka?",
+  "note": "nan desu ga sets context first, then makes the request — very natural",
+  "words": [
+   {
+    "r": "otona",
+    "e": "adult(s)",
+    "t": "n"
+   },
+   {
+    "r": "futari",
+    "e": "two people",
+    "t": "n"
+   },
+   {
+    "r": "to",
+    "e": "and",
+    "t": "p"
+   },
+   {
+    "r": "kodomo",
+    "e": "child",
+    "t": "n"
+   },
+   {
+    "r": "hitori",
+    "e": "one person",
+    "t": "n"
+   },
+   {
+    "r": "nan desu ga",
+    "e": "it is the case...",
+    "t": "p"
+   },
+   {
+    "r": "bebi chea",
+    "e": "high chair",
+    "t": "n"
+   },
+   {
+    "r": "o",
+    "e": "[object]",
+    "t": "p"
+   },
+   {
+    "r": "onegai dekimasu",
+    "e": "could I ask for",
+    "t": "v"
+   },
+   {
+    "r": "ka",
+    "e": "?",
+    "t": "p"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 8,
+  "dir": "say",
+  "category": "Restaurant",
+  "english": "Do you have a children's menu?",
+  "japanese": "お子様メニューはありますか？",
+  "romaji": "o-ko-sama menyū wa arimasu ka?",
+  "note": "o-ko-sama is the restaurant-level polite word for child",
+  "words": [
+   {
+    "r": "o-ko-sama",
+    "e": "child [formal]",
+    "t": "n"
+   },
+   {
+    "r": "menyu",
+    "e": "menu",
+    "t": "n"
+   },
+   {
+    "r": "wa",
+    "e": "[topic]",
+    "t": "p"
+   },
+   {
+    "r": "arimasu",
+    "e": "have / exist",
+    "t": "v"
+   },
+   {
+    "r": "ka",
+    "e": "?",
+    "t": "p"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 9,
+  "dir": "say",
+  "category": "Restaurant",
+  "english": "This isn't spicy, is it?",
+  "japanese": "これ、辛くないですか？",
+  "romaji": "kore, karaku nai desu ka?",
+  "note": "Negative question = more natural than asking 'is this spicy?' directly",
+  "words": [
+   {
+    "r": "kore",
+    "e": "this",
+    "t": "n"
+   },
+   {
+    "r": "karaku",
+    "e": "spicy [adj]",
+    "t": "n"
+   },
+   {
+    "r": "nai",
+    "e": "isn't",
+    "t": "v"
+   },
+   {
+    "r": "desu",
+    "e": "[polite]",
+    "t": "p"
+   },
+   {
+    "r": "ka",
+    "e": "?",
+    "t": "p"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 10,
+  "dir": "say",
+  "category": "Restaurant",
+  "english": "The bill, please",
+  "japanese": "お会計をお願いします",
+  "romaji": "o-kaikei o onegai shimasu",
+  "note": "More natural than just saying kaikei alone",
+  "words": [
+   {
+    "r": "o-kaikei",
+    "e": "bill [polite]",
+    "t": "n"
+   },
+   {
+    "r": "o",
+    "e": "[object]",
+    "t": "p"
+   },
+   {
+    "r": "onegai shimasu",
+    "e": "please / I request",
+    "t": "v"
+   }
+  ],
+  "replyList": [
+   {
+    "id": 112,
+    "r": "gochisōsama deshita",
+    "e": "thank you for the meal [leaving]",
+    "words": [
+     {
+      "r": "gochisōsama",
+      "e": "feast [gratitude]",
+      "t": "n"
+     },
+     {
+      "r": "deshita",
+      "e": "was [past polite]",
+      "t": "p"
+     }
+    ]
+   },
+   {
+    "id": 102,
+    "r": "arigatō gozaimasu",
+    "e": "thank you",
+    "words": [
+     {
+      "r": "arigatō",
+      "e": "thanks",
+      "t": "n"
+     },
+     {
+      "r": "gozaimasu",
+      "e": "[formal ending]",
+      "t": "v"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 11,
+  "dir": "say",
+  "category": "General",
+  "english": "I'd like to get here… [show map]",
+  "japanese": "ここに行きたいんですが",
+  "romaji": "koko ni ikitai n desu ga",
+  "note": "Trail off — the unfinished ga implies 'can you help?' without asking directly",
+  "words": [
+   {
+    "r": "koko",
+    "e": "here",
+    "t": "n"
+   },
+   {
+    "r": "ni",
+    "e": "to [direction]",
+    "t": "p"
+   },
+   {
+    "r": "ikitai",
+    "e": "want to go",
+    "t": "v"
+   },
+   {
+    "r": "n desu ga",
+    "e": "[implies: help?]",
+    "t": "p"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 12,
+  "dir": "say",
+  "category": "General",
+  "english": "I don't need a bag",
+  "japanese": "袋はいりません",
+  "romaji": "fukuro wa irimasen",
+  "note": "You'll say this at every convenience store. Casual iranai works too; daijōbu desu is smoothest",
+  "words": [
+   {
+    "r": "fukuro",
+    "e": "bag",
+    "t": "n"
+   },
+   {
+    "r": "wa",
+    "e": "[topic]",
+    "t": "p"
+   },
+   {
+    "r": "irimasen",
+    "e": "don't need",
+    "t": "v"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 13,
+  "dir": "say",
+  "category": "General",
+  "english": "Where is the toilet?",
+  "japanese": "トイレはどこですか？",
+  "romaji": "toire wa doko desu ka?",
+  "note": "Toire is universally understood",
+  "words": [
+   {
+    "r": "toire",
+    "e": "toilet",
+    "t": "n"
+   },
+   {
+    "r": "wa",
+    "e": "[topic]",
+    "t": "p"
+   },
+   {
+    "r": "doko",
+    "e": "where",
+    "t": "n"
+   },
+   {
+    "r": "desu",
+    "e": "[polite]",
+    "t": "p"
+   },
+   {
+    "r": "ka",
+    "e": "?",
+    "t": "p"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 14,
+  "dir": "say",
+  "category": "General",
+  "english": "Could I pay by card?",
+  "japanese": "カードで払えますか？",
+  "romaji": "kādo de haraemasu ka?",
+  "note": "Useful habit — e.g. Kosaku in Kawaguchiko is cash-only",
+  "words": [
+   {
+    "r": "kado",
+    "e": "card",
+    "t": "n"
+   },
+   {
+    "r": "de",
+    "e": "by / with",
+    "t": "p"
+   },
+   {
+    "r": "haraemasu",
+    "e": "can pay",
+    "t": "v"
+   },
+   {
+    "r": "ka",
+    "e": "?",
+    "t": "p"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 38,
+  "dir": "say",
+  "category": "Driving",
+  "english": "Regular, full tank please",
+  "japanese": "レギュラー、満タンでお願いします",
+  "romaji": "regyurā, mantan de onegai shimasu",
+  "note": "For full-service petrol stations. Many stations are self-serve (look for セルフ) — there you won't need to speak at all. Return the rental full",
+  "words": [
+   {
+    "r": "regyurā",
+    "e": "regular [petrol]",
+    "t": "n"
+   },
+   {
+    "r": "mantan",
+    "e": "full tank",
+    "t": "n"
+   },
+   {
+    "r": "de",
+    "e": "as / with",
+    "t": "p"
+   },
+   {
+    "r": "onegai shimasu",
+    "e": "please",
+    "t": "v"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 39,
+  "dir": "say",
+  "category": "Driving",
+  "english": "The ETC card isn't working",
+  "japanese": "ETCカードが使えません",
+  "romaji": "ī-tī-shī kādo ga tsukaemasen",
+  "note": "For reporting a problem at the rental counter or toll booth. To ASK whether you can use one: ETC kādo wa tsukaemasu ka?",
+  "words": [
+   {
+    "r": "ETC kādo",
+    "e": "ETC card",
+    "t": "n"
+   },
+   {
+    "r": "ga",
+    "e": "[subject]",
+    "t": "p"
+   },
+   {
+    "r": "tsukaemasen",
+    "e": "cannot use / not working",
+    "t": "v"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 15,
+  "dir": "say",
+  "category": "Disney",
+  "english": "Where's the stroller parking?",
+  "japanese": "ベビーカー置き場はどこですか？",
+  "romaji": "bebīkā okiba wa doko desu ka?",
+  "note": "okiba = storage spot — literally place for placing",
+  "words": [
+   {
+    "r": "bebika",
+    "e": "stroller",
+    "t": "n"
+   },
+   {
+    "r": "okiba",
+    "e": "storage spot",
+    "t": "n"
+   },
+   {
+    "r": "wa",
+    "e": "[topic]",
+    "t": "p"
+   },
+   {
+    "r": "doko",
+    "e": "where",
+    "t": "n"
+   },
+   {
+    "r": "desu",
+    "e": "[polite]",
+    "t": "p"
+   },
+   {
+    "r": "ka",
+    "e": "?",
+    "t": "p"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 16,
+  "dir": "say",
+  "category": "Disney",
+  "english": "What's the minimum age for this ride?",
+  "japanese": "このアトラクションは何歳から乗れますか？",
+  "romaji": "kono atorakushon wa nansai kara noremasu ka?",
+  "note": "",
+  "words": [
+   {
+    "r": "kono",
+    "e": "this",
+    "t": "n"
+   },
+   {
+    "r": "atorakushon",
+    "e": "attraction",
+    "t": "n"
+   },
+   {
+    "r": "wa",
+    "e": "[topic]",
+    "t": "p"
+   },
+   {
+    "r": "nansai",
+    "e": "what age",
+    "t": "n"
+   },
+   {
+    "r": "kara",
+    "e": "from / since",
+    "t": "p"
+   },
+   {
+    "r": "noremasu",
+    "e": "can ride",
+    "t": "v"
+   },
+   {
+    "r": "ka",
+    "e": "?",
+    "t": "p"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 17,
+  "dir": "hear",
+  "category": "Responses",
+  "english": "Certainly / Understood",
+  "japanese": "かしこまりました",
+  "romaji": "kashikomarimashita",
+  "note": "The most formal yes, I'll do it. Hear this and your request has been accepted",
+  "words": [
+   {
+    "r": "kashikomarimashita",
+    "e": "certainly [very formal]",
+    "t": "v"
+   }
+  ],
+  "replyList": [
+   {
+    "id": 101,
+    "r": "onegai shimasu",
+    "e": "please — go ahead",
+    "words": [
+     {
+      "r": "onegai",
+      "e": "request / favor",
+      "t": "n"
+     },
+     {
+      "r": "shimasu",
+      "e": "do [polite]",
+      "t": "v"
+     }
+    ]
+   },
+   {
+    "id": 102,
+    "r": "arigatō gozaimasu",
+    "e": "thank you",
+    "words": [
+     {
+      "r": "arigatō",
+      "e": "thanks",
+      "t": "n"
+     },
+     {
+      "r": "gozaimasu",
+      "e": "[formal ending]",
+      "t": "v"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 18,
+  "dir": "hear",
+  "category": "Responses",
+  "english": "Just a moment, please",
+  "japanese": "少々お待ちください",
+  "romaji": "shōshō o-machi kudasai",
+  "note": "Expect this before they go get something or make a call",
+  "words": [
+   {
+    "r": "shosho",
+    "e": "just a moment",
+    "t": "n"
+   },
+   {
+    "r": "o-machi",
+    "e": "waiting [polite]",
+    "t": "n"
+   },
+   {
+    "r": "kudasai",
+    "e": "please",
+    "t": "v"
+   }
+  ],
+  "replyList": [
+   {
+    "id": 103,
+    "r": "hai",
+    "e": "yes / okay",
+    "words": [
+     {
+      "r": "hai",
+      "e": "yes / okay",
+      "t": "n"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 19,
+  "dir": "hear",
+  "category": "Responses",
+  "english": "Yes, we have it",
+  "japanese": "はい、ございます",
+  "romaji": "hai, gozaimasu",
+  "note": "gozaimasu is the formal hotel and restaurant version of arimasu — same meaning",
+  "words": [
+   {
+    "r": "hai",
+    "e": "yes",
+    "t": "n"
+   },
+   {
+    "r": "gozaimasu",
+    "e": "have / exist [formal]",
+    "t": "v"
+   }
+  ],
+  "replyList": [
+   {
+    "id": 104,
+    "r": "jā, onegai shimasu",
+    "e": "then, I'll take it",
+    "words": [
+     {
+      "r": "jā",
+      "e": "well then",
+      "t": "p"
+     },
+     {
+      "r": "onegai",
+      "e": "request",
+      "t": "n"
+     },
+     {
+      "r": "shimasu",
+      "e": "do [polite]",
+      "t": "v"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 20,
+  "dir": "hear",
+  "category": "Responses",
+  "english": "I'm very sorry — we don't have that",
+  "japanese": "申し訳ございません",
+  "romaji": "mōshiwake gozaimasen",
+  "note": "A deep apology, not a casual sorry. If you hear this after a request, the answer is no",
+  "words": [
+   {
+    "r": "moshiwake",
+    "e": "excuse / apology",
+    "t": "n"
+   },
+   {
+    "r": "gozaimasen",
+    "e": "[formal] don't have",
+    "t": "v"
+   }
+  ],
+  "replyList": [
+   {
+    "id": 105,
+    "r": "daijōbu desu",
+    "e": "it's okay — no worries",
+    "words": [
+     {
+      "r": "daijōbu",
+      "e": "okay / fine",
+      "t": "a"
+     },
+     {
+      "r": "desu",
+      "e": "[polite]",
+      "t": "p"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 21,
+  "dir": "hear",
+  "category": "Responses",
+  "english": "I'll bring it right now",
+  "japanese": "ただいまお持ちします",
+  "romaji": "tadaima o-mochi shimasu",
+  "note": "Said after you've requested something at the hotel — it's on its way",
+  "words": [
+   {
+    "r": "tadaima",
+    "e": "right now",
+    "t": "n"
+   },
+   {
+    "r": "o-mochi shimasu",
+    "e": "will bring [humble]",
+    "t": "v"
+   }
+  ],
+  "replyList": [
+   {
+    "id": 102,
+    "r": "arigatō gozaimasu",
+    "e": "thank you",
+    "words": [
+     {
+      "r": "arigatō",
+      "e": "thanks",
+      "t": "n"
+     },
+     {
+      "r": "gozaimasu",
+      "e": "[formal ending]",
+      "t": "v"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 22,
+  "dir": "hear",
+  "category": "Responses",
+  "english": "Sorry to have kept you waiting",
+  "japanese": "お待たせしました",
+  "romaji": "o-matase shimashita",
+  "note": "Said every time a waiter returns to you — a reflex, not an apology for a real wait",
+  "words": [
+   {
+    "r": "o-matase",
+    "e": "kept you waiting [polite]",
+    "t": "n"
+   },
+   {
+    "r": "shimashita",
+    "e": "did [past]",
+    "t": "v"
+   }
+  ],
+  "replyList": [
+   {
+    "id": 106,
+    "r": "iie",
+    "e": "not at all",
+    "words": [
+     {
+      "r": "iie",
+      "e": "no / not at all",
+      "t": "n"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 23,
+  "dir": "hear",
+  "category": "Responses",
+  "english": "This way, please",
+  "japanese": "こちらへどうぞ",
+  "romaji": "kochira e dōzo",
+  "note": "Heard at restaurant entrances when being led to a table — just follow",
+  "words": [
+   {
+    "r": "kochira",
+    "e": "this way",
+    "t": "n"
+   },
+   {
+    "r": "e",
+    "e": "toward",
+    "t": "p"
+   },
+   {
+    "r": "dozo",
+    "e": "please / go ahead",
+    "t": "v"
+   }
+  ],
+  "replyList": [
+   {
+    "id": 102,
+    "r": "arigatō gozaimasu",
+    "e": "thank you",
+    "words": [
+     {
+      "r": "arigatō",
+      "e": "thanks",
+      "t": "n"
+     },
+     {
+      "r": "gozaimasu",
+      "e": "[formal ending]",
+      "t": "v"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 24,
+  "dir": "hear",
+  "category": "Responses",
+  "english": "Do you have a reservation?",
+  "japanese": "ご予約はございますか？",
+  "romaji": "go-yoyaku wa gozaimasu ka?",
+  "note": "First thing you'll hear walking into any mid-range restaurant",
+  "words": [
+   {
+    "r": "go-yoyaku",
+    "e": "reservation [polite]",
+    "t": "n"
+   },
+   {
+    "r": "wa",
+    "e": "[topic]",
+    "t": "p"
+   },
+   {
+    "r": "gozaimasu",
+    "e": "have [formal]",
+    "t": "v"
+   },
+   {
+    "r": "ka",
+    "e": "?",
+    "t": "p"
+   }
+  ],
+  "replyList": [
+   {
+    "id": 107,
+    "r": "hai, yoyaku shite imasu",
+    "e": "yes, I have a reservation",
+    "words": [
+     {
+      "r": "hai",
+      "e": "yes",
+      "t": "n"
+     },
+     {
+      "r": "yoyaku",
+      "e": "reservation",
+      "t": "n"
+     },
+     {
+      "r": "shite imasu",
+      "e": "have done [state]",
+      "t": "v"
+     }
+    ]
+   },
+   {
+    "id": 108,
+    "r": "iie, yoyaku shite imasen",
+    "e": "no, I don't have one",
+    "words": [
+     {
+      "r": "iie",
+      "e": "no",
+      "t": "n"
+     },
+     {
+      "r": "yoyaku",
+      "e": "reservation",
+      "t": "n"
+     },
+     {
+      "r": "shite imasen",
+      "e": "haven't done",
+      "t": "v"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 25,
+  "dir": "hear",
+  "category": "Responses",
+  "english": "How many in your party?",
+  "japanese": "何名様ですか？",
+  "romaji": "nan-mei-sama desu ka?",
+  "note": "Hold up fingers if needed — show 3. nan-nin is the less formal version, same meaning",
+  "words": [
+   {
+    "r": "nan",
+    "e": "how many",
+    "t": "n"
+   },
+   {
+    "r": "mei-sama",
+    "e": "people [very polite]",
+    "t": "n"
+   },
+   {
+    "r": "desu",
+    "e": "[polite]",
+    "t": "p"
+   },
+   {
+    "r": "ka",
+    "e": "?",
+    "t": "p"
+   }
+  ],
+  "replyList": [
+   {
+    "id": 109,
+    "r": "san-nin desu",
+    "e": "three people",
+    "words": [
+     {
+      "r": "san-nin",
+      "e": "three people",
+      "t": "n"
+     },
+     {
+      "r": "desu",
+      "e": "[polite]",
+      "t": "p"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 26,
+  "dir": "hear",
+  "category": "Responses",
+  "english": "Have you decided your order?",
+  "japanese": "ご注文はお決まりですか？",
+  "romaji": "go-chūmon wa o-kimari desu ka?",
+  "note": "The waiter's cue that they're ready to take your order",
+  "words": [
+   {
+    "r": "go-chumon",
+    "e": "order [polite]",
+    "t": "n"
+   },
+   {
+    "r": "wa",
+    "e": "[topic]",
+    "t": "p"
+   },
+   {
+    "r": "o-kimari",
+    "e": "decided [polite]",
+    "t": "n"
+   },
+   {
+    "r": "desu",
+    "e": "[polite]",
+    "t": "p"
+   },
+   {
+    "r": "ka",
+    "e": "?",
+    "t": "p"
+   }
+  ],
+  "replyList": [
+   {
+    "id": 113,
+    "r": "hai, onegai shimasu",
+    "e": "yes, this one please",
+    "words": [
+     {
+      "r": "hai",
+      "e": "yes",
+      "t": "n"
+     },
+     {
+      "r": "onegai shimasu",
+      "e": "please",
+      "t": "v"
+     }
+    ]
+   },
+   {
+    "id": 110,
+    "r": "mō sukoshi onegai shimasu",
+    "e": "a little more time, please",
+    "words": [
+     {
+      "r": "mō",
+      "e": "more",
+      "t": "n"
+     },
+     {
+      "r": "sukoshi",
+      "e": "a little",
+      "t": "n"
+     },
+     {
+      "r": "onegai shimasu",
+      "e": "please",
+      "t": "v"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 27,
+  "dir": "hear",
+  "category": "Responses",
+  "english": "May I have your name?",
+  "japanese": "お名前をお聞かせください",
+  "romaji": "o-namae o o-kikase kudasai",
+  "note": "Heard at ryokan check-in — have your booking name ready",
+  "words": [
+   {
+    "r": "o-namae",
+    "e": "name [polite]",
+    "t": "n"
+   },
+   {
+    "r": "wo",
+    "e": "[object]",
+    "t": "p"
+   },
+   {
+    "r": "o-kikase",
+    "e": "let me hear",
+    "t": "v"
+   },
+   {
+    "r": "kudasai",
+    "e": "please",
+    "t": "v"
+   }
+  ],
+  "reply_text": "(your booking name) + desu — e.g. just your surname + desu",
+  "replyList": []
+ },
+ {
+  "id": 28,
+  "dir": "hear",
+  "category": "Responses",
+  "english": "We're fully seated right now",
+  "japanese": "ただいま満席でございます",
+  "romaji": "tadaima manseki de gozaimasu",
+  "note": "Restaurant is full. You can ask the wait time or bow and move on",
+  "words": [
+   {
+    "r": "tadaima",
+    "e": "currently",
+    "t": "n"
+   },
+   {
+    "r": "manseki",
+    "e": "fully booked",
+    "t": "n"
+   },
+   {
+    "r": "de",
+    "e": "[state]",
+    "t": "p"
+   },
+   {
+    "r": "gozaimasu",
+    "e": "[formal]",
+    "t": "v"
+   }
+  ],
+  "replyList": [
+   {
+    "id": 111,
+    "r": "dono kurai machimasu ka?",
+    "e": "how long is the wait?",
+    "words": [
+     {
+      "r": "dono kurai",
+      "e": "how long",
+      "t": "n"
+     },
+     {
+      "r": "machimasu",
+      "e": "wait",
+      "t": "v"
+     },
+     {
+      "r": "ka",
+      "e": "?",
+      "t": "p"
+     }
+    ]
+   },
+   {
+    "id": 105,
+    "r": "daijōbu desu",
+    "e": "it's okay — no worries",
+    "words": [
+     {
+      "r": "daijōbu",
+      "e": "okay / fine",
+      "t": "a"
+     },
+     {
+      "r": "desu",
+      "e": "[polite]",
+      "t": "p"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 33,
+  "dir": "hear",
+  "category": "Small talk",
+  "english": "How old is your child?",
+  "japanese": "お子さんは何歳ですか？",
+  "romaji": "o-ko-san wa nan-sai desu ka?",
+  "note": "Strangers WILL ask about your son, warmly. Softer variant: o-ikutsu desu ka. Ages use -sai: ni-sai (2), san-sai (3)",
+  "words": [
+   {
+    "r": "o-ko-san",
+    "e": "your child [polite]",
+    "t": "n"
+   },
+   {
+    "r": "wa",
+    "e": "[topic]",
+    "t": "p"
+   },
+   {
+    "r": "nan-sai",
+    "e": "how old",
+    "t": "n"
+   },
+   {
+    "r": "desu",
+    "e": "[polite]",
+    "t": "p"
+   },
+   {
+    "r": "ka",
+    "e": "?",
+    "t": "p"
+   }
+  ],
+  "replyList": [
+   {
+    "id": 118,
+    "r": "mōsugu san-sai ni narimasu",
+    "e": "he's turning 3 soon",
+    "words": [
+     {
+      "r": "mōsugu",
+      "e": "soon",
+      "t": "n"
+     },
+     {
+      "r": "san-sai",
+      "e": "3 years old",
+      "t": "n"
+     },
+     {
+      "r": "ni",
+      "e": "into [change]",
+      "t": "p"
+     },
+     {
+      "r": "narimasu",
+      "e": "become",
+      "t": "v"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 37,
+  "dir": "hear",
+  "category": "Small talk",
+  "english": "Is it a boy?",
+  "japanese": "男の子ですか？",
+  "romaji": "otoko no ko desu ka?",
+  "note": "Often just otoko no ko? with rising tone. onna no ko = girl. To say 'my son': musuko desu",
+  "words": [
+   {
+    "r": "otoko no ko",
+    "e": "boy",
+    "t": "n"
+   },
+   {
+    "r": "desu",
+    "e": "[polite]",
+    "t": "p"
+   },
+   {
+    "r": "ka",
+    "e": "?",
+    "t": "p"
+   }
+  ],
+  "replyList": [
+   {
+    "id": 120,
+    "r": "hai, otoko no ko desu",
+    "e": "yes, it's a boy",
+    "words": [
+     {
+      "r": "hai",
+      "e": "yes",
+      "t": "n"
+     },
+     {
+      "r": "otoko no ko",
+      "e": "boy",
+      "t": "n"
+     },
+     {
+      "r": "desu",
+      "e": "[polite]",
+      "t": "p"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 40,
+  "dir": "hear",
+  "category": "Small talk",
+  "english": "Is he out of diapers?",
+  "japanese": "おむつは取れていますか？",
+  "romaji": "omutsu wa torete imasu ka?",
+  "note": "Asked at onsen and pools — many baths require children to be toilet-trained. torete iru = literally 'has come off', the standard idiom",
+  "words": [
+   {
+    "r": "omutsu",
+    "e": "diaper",
+    "t": "n"
+   },
+   {
+    "r": "wa",
+    "e": "[topic]",
+    "t": "p"
+   },
+   {
+    "r": "torete imasu",
+    "e": "has come off [state]",
+    "t": "v"
+   },
+   {
+    "r": "ka",
+    "e": "?",
+    "t": "p"
+   }
+  ],
+  "replyList": [
+   {
+    "id": 121,
+    "r": "hai, omutsu wa torete imasu",
+    "e": "yes, he's toilet-trained",
+    "words": [
+     {
+      "r": "hai",
+      "e": "yes",
+      "t": "n"
+     },
+     {
+      "r": "omutsu",
+      "e": "diaper",
+      "t": "n"
+     },
+     {
+      "r": "wa",
+      "e": "[topic]",
+      "t": "p"
+     },
+     {
+      "r": "torete imasu",
+      "e": "has come off [state]",
+      "t": "v"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 34,
+  "dir": "hear",
+  "category": "Small talk",
+  "english": "You speak Japanese well!",
+  "japanese": "日本語、お上手ですね",
+  "romaji": "nihongo, o-jōzu desu ne",
+  "note": "A COMPLIMENT reflex, said for any effort — not a real assessment. Deflect modestly rather than thank",
+  "words": [
+   {
+    "r": "nihongo",
+    "e": "Japanese",
+    "t": "n"
+   },
+   {
+    "r": "o-jōzu",
+    "e": "skilled [polite]",
+    "t": "n"
+   },
+   {
+    "r": "desu",
+    "e": "[polite]",
+    "t": "p"
+   },
+   {
+    "r": "ne",
+    "e": "isn't it [agree]",
+    "t": "p"
+   }
+  ],
+  "replyList": [
+   {
+    "id": 119,
+    "r": "iie, mada benkyō-chū desu. hontō ni sukoshi dake desu",
+    "e": "no, still learning — really just a little",
+    "words": [
+     {
+      "r": "iie",
+      "e": "no",
+      "t": "n"
+     },
+     {
+      "r": "mada",
+      "e": "still",
+      "t": "n"
+     },
+     {
+      "r": "benkyō-chū",
+      "e": "mid-study",
+      "t": "n"
+     },
+     {
+      "r": "desu",
+      "e": "[polite]",
+      "t": "p"
+     },
+     {
+      "r": "hontō ni",
+      "e": "really",
+      "t": "n"
+     },
+     {
+      "r": "sukoshi",
+      "e": "a little",
+      "t": "n"
+     },
+     {
+      "r": "dake",
+      "e": "only",
+      "t": "p"
+     },
+     {
+      "r": "desu",
+      "e": "[polite]",
+      "t": "p"
+     }
+    ]
+   },
+   {
+    "id": 116,
+    "r": "iie, mada-mada desu",
+    "e": "no, I've a long way to go [modest]",
+    "words": [
+     {
+      "r": "iie",
+      "e": "no",
+      "t": "n"
+     },
+     {
+      "r": "mada-mada",
+      "e": "long way to go",
+      "t": "a"
+     },
+     {
+      "r": "desu",
+      "e": "[polite]",
+      "t": "p"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 35,
+  "dir": "hear",
+  "category": "Small talk",
+  "english": "Do you speak Japanese?",
+  "japanese": "日本語、話せますか？",
+  "romaji": "nihongo, hanasemasu ka?",
+  "note": "A genuine question (not a compliment) — answer honestly with 'just a little'",
+  "words": [
+   {
+    "r": "nihongo",
+    "e": "Japanese",
+    "t": "n"
+   },
+   {
+    "r": "hanasemasu",
+    "e": "can speak",
+    "t": "v"
+   },
+   {
+    "r": "ka",
+    "e": "?",
+    "t": "p"
+   }
+  ],
+  "replyList": [
+   {
+    "id": 117,
+    "r": "sukoshi dake hanasemasu",
+    "e": "I can speak just a little",
+    "words": [
+     {
+      "r": "sukoshi",
+      "e": "a little",
+      "t": "n"
+     },
+     {
+      "r": "dake",
+      "e": "only",
+      "t": "p"
+     },
+     {
+      "r": "hanasemasu",
+      "e": "can speak",
+      "t": "v"
+     }
+    ]
+   },
+   {
+    "id": 115,
+    "r": "iie, mada benkyō-chū desu",
+    "e": "no, I'm still learning",
+    "words": [
+     {
+      "r": "iie",
+      "e": "no",
+      "t": "n"
+     },
+     {
+      "r": "mada",
+      "e": "still",
+      "t": "n"
+     },
+     {
+      "r": "benkyō-chū",
+      "e": "mid-study",
+      "t": "n"
+     },
+     {
+      "r": "desu",
+      "e": "[polite]",
+      "t": "p"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 29,
+  "dir": "rescue",
+  "category": "Rescue",
+  "english": "Please speak slowly",
+  "japanese": "ゆっくり話してください",
+  "romaji": "yukkuri hanashite kudasai",
+  "note": "Say this the moment they start speaking fast — most staff will happily slow down",
+  "words": [
+   {
+    "r": "yukkuri",
+    "e": "slowly",
+    "t": "n"
+   },
+   {
+    "r": "hanashite",
+    "e": "speak [please-form]",
+    "t": "v"
+   },
+   {
+    "r": "kudasai",
+    "e": "please",
+    "t": "v"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 30,
+  "dir": "rescue",
+  "category": "Rescue",
+  "english": "Once more, please",
+  "japanese": "もう一度お願いします",
+  "romaji": "mō ichido onegai shimasu",
+  "note": "For when you heard it slowly but still didn't catch it",
+  "words": [
+   {
+    "r": "mo",
+    "e": "again",
+    "t": "n"
+   },
+   {
+    "r": "ichido",
+    "e": "one time",
+    "t": "n"
+   },
+   {
+    "r": "onegai shimasu",
+    "e": "please",
+    "t": "v"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 36,
+  "dir": "rescue",
+  "category": "Rescue",
+  "english": "Sorry, I still can't understand — could you say it in English?",
+  "japanese": "すみません、まだわかりません。英語でお願いできますか？",
+  "romaji": "sumimasen, mada wakarimasen. eigo de onegai dekimasu ka?",
+  "note": "The graceful exit after slow/repeat haven't worked. mada = still; eigo de = in English",
+  "words": [
+   {
+    "r": "sumimasen",
+    "e": "sorry",
+    "t": "v"
+   },
+   {
+    "r": "mada",
+    "e": "still / not yet",
+    "t": "n"
+   },
+   {
+    "r": "wakarimasen",
+    "e": "don't understand",
+    "t": "v"
+   },
+   {
+    "r": "eigo",
+    "e": "English",
+    "t": "n"
+   },
+   {
+    "r": "de",
+    "e": "in / by",
+    "t": "p"
+   },
+   {
+    "r": "onegai dekimasu",
+    "e": "could I ask for",
+    "t": "v"
+   },
+   {
+    "r": "ka",
+    "e": "?",
+    "t": "p"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 31,
+  "dir": "rescue",
+  "category": "Rescue",
+  "english": "Can you speak English?",
+  "japanese": "英語を話せますか？",
+  "romaji": "eigo o hanasemasu ka?",
+  "note": "Hotels and Disney staff often can — restaurants less so, but worth asking",
+  "words": [
+   {
+    "r": "eigo",
+    "e": "English",
+    "t": "n"
+   },
+   {
+    "r": "wo",
+    "e": "[object]",
+    "t": "p"
+   },
+   {
+    "r": "hanasemasu",
+    "e": "can speak",
+    "t": "v"
+   },
+   {
+    "r": "ka",
+    "e": "?",
+    "t": "p"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 32,
+  "dir": "rescue",
+  "category": "Rescue",
+  "english": "I don't understand Japanese",
+  "japanese": "日本語がわかりません",
+  "romaji": "nihongo ga wakarimasen",
+  "note": "Use after asking for English if none available — signals they need another approach",
+  "words": [
+   {
+    "r": "nihongo",
+    "e": "Japanese [language]",
+    "t": "n"
+   },
+   {
+    "r": "ga",
+    "e": "[subject]",
+    "t": "p"
+   },
+   {
+    "r": "wakarimasen",
+    "e": "don't understand",
+    "t": "v"
+   }
+  ],
+  "replyList": []
+ }
+]
