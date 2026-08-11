@@ -243,7 +243,7 @@
   "english": "Do you have a private (family) bath?",
   "japanese": "貸切風呂はありますか？",
   "romaji": "kashikiri-buro wa arimasu ka?",
-  "note": "The single most useful onsen question with a toddler — a private bath sidesteps all shared-bath rules. Often needs booking at check-in, sometimes for a fee",
+  "note": "The most useful onsen question with a toddler — sidesteps shared-bath rules. Often needs booking at check-in, sometimes for a fee",
   "words": [
    {
     "r": "kashikiri",
@@ -280,7 +280,7 @@
   "english": "Two adults, one child — could we have a high chair?",
   "japanese": "大人二人と、子ども一人なんですが、ベビーチェアをお願いできますか？",
   "romaji": "otona futari to, kodomo hitori nan desu ga, bebī chea o onegai dekimasu ka?",
-  "note": "nan desu ga sets context first, then makes the request — very natural",
+  "note": "nan desu ga sets context first, then makes the request",
   "words": [
    {
     "r": "otona",
@@ -379,7 +379,7 @@
   "english": "A small plate for sharing, please",
   "japanese": "取り分け用のお皿をお願いします",
   "romaji": "torikawake-yō no o-sara o onegai shimasu",
-  "note": "You'll want this at nearly every meal — an extra plate to portion food onto for your son. Say o-sara futatsu for two plates",
+  "note": "You'll want this at nearly every meal. Say o-sara futatsu for two plates",
   "words": [
    {
     "r": "torikawake",
@@ -416,7 +416,7 @@
   "english": "Do you have children's tableware?",
   "japanese": "子ども用の食器はありますか？",
   "romaji": "kodomo-yō no shokki wa arimasu ka?",
-  "note": "shokki covers plates, bowls and cutlery as a set. For specific items swap it out: o-sara (plate), o-wan (bowl), supūn (spoon), fōku (fork), koppu (cup)",
+  "note": "shokki covers plates, bowls and cutlery. Swap in: o-sara (plate), o-wan (bowl), supūn (spoon), fōku (fork), koppu (cup)",
   "words": [
    {
     "r": "kodomo",
@@ -557,7 +557,7 @@
   "english": "I'd like to get here… [show map]",
   "japanese": "ここに行きたいんですが",
   "romaji": "koko ni ikitai n desu ga",
-  "note": "Trail off — the unfinished ga implies 'can you help?' without asking directly",
+  "note": "Trail off — the unfinished ga implies 'can you help?'",
   "words": [
    {
     "r": "koko",
@@ -685,7 +685,7 @@
   "english": "Regular, full tank please",
   "japanese": "レギュラー、満タンでお願いします",
   "romaji": "regyurā, mantan de onegai shimasu",
-  "note": "For full-service stations. Many are self-serve (セルフ) where you won't speak at all. Return the rental full",
+  "note": "For full-service stations. Many are self-serve (セルフ). Return the rental full",
   "words": [
    {
     "r": "regyurā",
@@ -717,7 +717,7 @@
   "english": "The ETC card isn't working",
   "japanese": "ETCカードが使えません",
   "romaji": "ī-tī-shī kādo ga tsukaemasen",
-  "note": "For reporting a problem. To ASK whether you can use one: ETC kādo wa tsukaemasu ka?",
+  "note": "For reporting a problem. To ASK if you can use one: ETC kādo wa tsukaemasu ka?",
   "words": [
    {
     "r": "ETC kādo",
@@ -1299,7 +1299,7 @@
   "english": "How many in your party?",
   "japanese": "何名様ですか？",
   "romaji": "nan-mei-sama desu ka?",
-  "note": "Hold up fingers if needed. nan-nin is the less formal version, same meaning",
+  "note": "Hold up fingers if needed. nan-nin is the less formal version",
   "words": [
    {
     "r": "nan",
@@ -1568,7 +1568,7 @@
   "english": "Do you have a point card?",
   "japanese": "ポイントカードはお持ちですか？",
   "romaji": "pointo kādo wa o-mochi desu ka?",
-  "note": "Asked at nearly every conbini and chain store. You won't have one — either reply works, motte imasen is the literal 'I don't have one'",
+  "note": "Asked at nearly every conbini and chain store",
   "words": [
    {
     "r": "pointo kādo",
@@ -1640,7 +1640,7 @@
   "english": "How old is your child?",
   "japanese": "お子さんは何歳ですか？",
   "romaji": "o-ko-san wa nan-sai desu ka?",
-  "note": "Strangers will ask this warmly. Softer variant: o-ikutsu desu ka. Ages use -sai: ni-sai (2), san-sai (3)",
+  "note": "Softer variant: o-ikutsu desu ka. Ages use -sai",
   "words": [
    {
     "r": "o-ko-san",
@@ -1705,7 +1705,7 @@
   "english": "Is it a boy?",
   "japanese": "男の子ですか？",
   "romaji": "otoko no ko desu ka?",
-  "note": "Often just otoko no ko? with rising tone. The girl answer is included so you recognise the pattern both ways",
+  "note": "Often just otoko no ko? with rising tone",
   "words": [
    {
     "r": "otoko no ko",
@@ -1794,7 +1794,7 @@
   "english": "Is he out of diapers?",
   "japanese": "おむつは取れていますか？",
   "romaji": "omutsu wa torete imasu ka?",
-  "note": "Asked at onsen and pools — many baths require children to be toilet-trained. torete iru = literally 'have come off'",
+  "note": "Asked at onsen and pools — many baths require children to be toilet-trained",
   "words": [
    {
     "r": "omutsu",
@@ -1876,7 +1876,7 @@
   "english": "You speak Japanese well!",
   "japanese": "日本語、お上手ですね",
   "romaji": "nihongo, o-jōzu desu ne",
-  "note": "A COMPLIMENT reflex, said for any effort — not a real assessment. Deflect modestly rather than thank",
+  "note": "A COMPLIMENT reflex — deflect modestly, like 哪里哪里 / 过奖了",
   "words": [
    {
     "r": "nihongo",
@@ -1978,7 +1978,7 @@
   "english": "Do you speak Japanese?",
   "japanese": "日本語、話せますか？",
   "romaji": "nihongo, hanasemasu ka?",
-  "note": "A genuine question, not a compliment — answer honestly with 'just a little'",
+  "note": "A genuine question, not a compliment — answer honestly",
   "words": [
    {
     "r": "nihongo",
@@ -2055,7 +2055,7 @@
   "english": "Please speak slowly",
   "japanese": "ゆっくり話してください",
   "romaji": "yukkuri hanashite kudasai",
-  "note": "Say this the moment they start speaking fast — most staff will happily slow down",
+  "note": "Say this the moment they start speaking fast",
   "words": [
    {
     "r": "yukkuri",
@@ -2204,6 +2204,2046 @@
     "r": "wakarimasen",
     "e": "don't understand",
     "t": "v"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 200,
+  "dir": "vocab",
+  "category": "Pack 1 Verbs",
+  "english": "go",
+  "japanese": "行きます",
+  "romaji": "ikimasu",
+  "note": "ikitai desu = 想去 (want to go)",
+  "words": [
+   {
+    "r": "ikimasu",
+    "e": "go",
+    "t": "v"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 201,
+  "dir": "vocab",
+  "category": "Pack 1 Verbs",
+  "english": "come",
+  "japanese": "来ます",
+  "romaji": "kimasu",
+  "note": "kite kudasai = please come",
+  "words": [
+   {
+    "r": "kimasu",
+    "e": "come",
+    "t": "v"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 202,
+  "dir": "vocab",
+  "category": "Pack 1 Verbs",
+  "english": "return / go home",
+  "japanese": "帰ります",
+  "romaji": "kaerimasu",
+  "note": "kaeritai desu = 想回去",
+  "words": [
+   {
+    "r": "kaerimasu",
+    "e": "return / go home",
+    "t": "v"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 203,
+  "dir": "vocab",
+  "category": "Pack 1 Verbs",
+  "english": "eat",
+  "japanese": "食べます",
+  "romaji": "tabemasu",
+  "note": "tabetai desu = 想吃",
+  "words": [
+   {
+    "r": "tabemasu",
+    "e": "eat",
+    "t": "v"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 204,
+  "dir": "vocab",
+  "category": "Pack 1 Verbs",
+  "english": "drink",
+  "japanese": "飲みます",
+  "romaji": "nomimasu",
+  "note": "also used for taking medicine",
+  "words": [
+   {
+    "r": "nomimasu",
+    "e": "drink",
+    "t": "v"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 205,
+  "dir": "vocab",
+  "category": "Pack 1 Verbs",
+  "english": "see / watch",
+  "japanese": "見ます",
+  "romaji": "mimasu",
+  "note": "mite mo ii desu ka = 可以看吗",
+  "words": [
+   {
+    "r": "mimasu",
+    "e": "see / watch",
+    "t": "v"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 206,
+  "dir": "vocab",
+  "category": "Pack 1 Verbs",
+  "english": "listen / ask",
+  "japanese": "聞きます",
+  "romaji": "kikimasu",
+  "note": "one verb covers both meanings",
+  "words": [
+   {
+    "r": "kikimasu",
+    "e": "listen / ask",
+    "t": "v"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 207,
+  "dir": "vocab",
+  "category": "Pack 1 Verbs",
+  "english": "speak",
+  "japanese": "話します",
+  "romaji": "hanashimasu",
+  "note": "hanasemasu = can speak (potential form)",
+  "words": [
+   {
+    "r": "hanashimasu",
+    "e": "speak",
+    "t": "v"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 208,
+  "dir": "vocab",
+  "category": "Pack 1 Verbs",
+  "english": "read",
+  "japanese": "読みます",
+  "romaji": "yomimasu",
+  "note": "yomemasen = I can't read it",
+  "words": [
+   {
+    "r": "yomimasu",
+    "e": "read",
+    "t": "v"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 209,
+  "dir": "vocab",
+  "category": "Pack 1 Verbs",
+  "english": "write",
+  "japanese": "書きます",
+  "romaji": "kakimasu",
+  "note": "kaite kudasai = please write it down — very useful when stuck",
+  "words": [
+   {
+    "r": "kakimasu",
+    "e": "write",
+    "t": "v"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 210,
+  "dir": "vocab",
+  "category": "Pack 1 Verbs",
+  "english": "buy",
+  "japanese": "買います",
+  "romaji": "kaimasu",
+  "note": "kaitai desu = 想买",
+  "words": [
+   {
+    "r": "kaimasu",
+    "e": "buy",
+    "t": "v"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 211,
+  "dir": "vocab",
+  "category": "Pack 1 Verbs",
+  "english": "pay",
+  "japanese": "払います",
+  "romaji": "haraimasu",
+  "note": "haraemasu ka = can I pay (by...)",
+  "words": [
+   {
+    "r": "haraimasu",
+    "e": "pay",
+    "t": "v"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 212,
+  "dir": "vocab",
+  "category": "Pack 1 Verbs",
+  "english": "wait",
+  "japanese": "待ちます",
+  "romaji": "machimasu",
+  "note": "matte kudasai = please wait",
+  "words": [
+   {
+    "r": "machimasu",
+    "e": "wait",
+    "t": "v"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 213,
+  "dir": "vocab",
+  "category": "Pack 1 Verbs",
+  "english": "meet",
+  "japanese": "会います",
+  "romaji": "aimasu",
+  "note": "takes ni not o: tomodachi ni aimasu",
+  "words": [
+   {
+    "r": "aimasu",
+    "e": "meet",
+    "t": "v"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 214,
+  "dir": "vocab",
+  "category": "Pack 1 Verbs",
+  "english": "do",
+  "japanese": "します",
+  "romaji": "shimasu",
+  "note": "attaches to nouns: yoyaku shimasu = to reserve",
+  "words": [
+   {
+    "r": "shimasu",
+    "e": "do",
+    "t": "v"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 215,
+  "dir": "vocab",
+  "category": "Pack 1 Verbs",
+  "english": "become",
+  "japanese": "なります",
+  "romaji": "narimasu",
+  "note": "san-sai ni narimasu = turns 3",
+  "words": [
+   {
+    "r": "narimasu",
+    "e": "become",
+    "t": "v"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 216,
+  "dir": "vocab",
+  "category": "Pack 1 Verbs",
+  "english": "walk",
+  "japanese": "歩きます",
+  "romaji": "arukimasu",
+  "note": "aruite = on foot",
+  "words": [
+   {
+    "r": "arukimasu",
+    "e": "walk",
+    "t": "v"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 217,
+  "dir": "vocab",
+  "category": "Pack 1 Verbs",
+  "english": "board / ride",
+  "japanese": "乗ります",
+  "romaji": "norimasu",
+  "note": "takes ni: densha ni norimasu",
+  "words": [
+   {
+    "r": "norimasu",
+    "e": "board / ride",
+    "t": "v"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 218,
+  "dir": "vocab",
+  "category": "Pack 1 Verbs",
+  "english": "get off / descend",
+  "japanese": "降ります",
+  "romaji": "orimasu",
+  "note": "the opposite of norimasu",
+  "words": [
+   {
+    "r": "orimasu",
+    "e": "get off / descend",
+    "t": "v"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 219,
+  "dir": "vocab",
+  "category": "Pack 1 Verbs",
+  "english": "arrive",
+  "japanese": "着きます",
+  "romaji": "tsukimasu",
+  "note": "nanji ni tsukimasu ka = what time does it arrive",
+  "words": [
+   {
+    "r": "tsukimasu",
+    "e": "arrive",
+    "t": "v"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 220,
+  "dir": "vocab",
+  "category": "Pack 1 Verbs",
+  "english": "leave / exit / depart",
+  "japanese": "出ます",
+  "romaji": "demasu",
+  "note": "also 'a train departs'",
+  "words": [
+   {
+    "r": "demasu",
+    "e": "leave / exit / depart",
+    "t": "v"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 221,
+  "dir": "vocab",
+  "category": "Pack 1 Verbs",
+  "english": "enter",
+  "japanese": "入ります",
+  "romaji": "hairimasu",
+  "note": "onsen ni hairimasu = get into the onsen",
+  "words": [
+   {
+    "r": "hairimasu",
+    "e": "enter",
+    "t": "v"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 222,
+  "dir": "vocab",
+  "category": "Pack 1 Verbs",
+  "english": "stay overnight",
+  "japanese": "泊まります",
+  "romaji": "tomarimasu",
+  "note": "hoteru ni tomarimasu",
+  "words": [
+   {
+    "r": "tomarimasu",
+    "e": "stay overnight",
+    "t": "v"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 223,
+  "dir": "vocab",
+  "category": "Pack 1 Verbs",
+  "english": "rest / take a break",
+  "japanese": "休みます",
+  "romaji": "yasumimasu",
+  "note": "also means a shop is closed for the day",
+  "words": [
+   {
+    "r": "yasumimasu",
+    "e": "rest / take a break",
+    "t": "v"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 224,
+  "dir": "vocab",
+  "category": "Pack 1 Verbs",
+  "english": "sleep",
+  "japanese": "寝ます",
+  "romaji": "nemasu",
+  "note": "nete imasu = is sleeping — useful for your son",
+  "words": [
+   {
+    "r": "nemasu",
+    "e": "sleep",
+    "t": "v"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 225,
+  "dir": "vocab",
+  "category": "Pack 1 Verbs",
+  "english": "wake up / get up",
+  "japanese": "起きます",
+  "romaji": "okimasu",
+  "note": "",
+  "words": [
+   {
+    "r": "okimasu",
+    "e": "wake up / get up",
+    "t": "v"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 226,
+  "dir": "vocab",
+  "category": "Pack 1 Verbs",
+  "english": "hold / carry",
+  "japanese": "持ちます",
+  "romaji": "mochimasu",
+  "note": "motte imasu = have (on me)",
+  "words": [
+   {
+    "r": "mochimasu",
+    "e": "hold / carry",
+    "t": "v"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 227,
+  "dir": "vocab",
+  "category": "Pack 1 Verbs",
+  "english": "use",
+  "japanese": "使います",
+  "romaji": "tsukaimasu",
+  "note": "tsukaemasu ka = can I use it",
+  "words": [
+   {
+    "r": "tsukaimasu",
+    "e": "use",
+    "t": "v"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 228,
+  "dir": "vocab",
+  "category": "Pack 1 Verbs",
+  "english": "look for / search",
+  "japanese": "探します",
+  "romaji": "sagashimasu",
+  "note": "sagashite imasu = I'm looking for...",
+  "words": [
+   {
+    "r": "sagashimasu",
+    "e": "look for / search",
+    "t": "v"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 229,
+  "dir": "vocab",
+  "category": "Pack 1 Verbs",
+  "english": "help",
+  "japanese": "手伝います",
+  "romaji": "tetsudaimasu",
+  "note": "tetsudatte moraemasu ka = could you help me",
+  "words": [
+   {
+    "r": "tetsudaimasu",
+    "e": "help",
+    "t": "v"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 230,
+  "dir": "vocab",
+  "category": "Pack 2 Nouns",
+  "english": "water",
+  "japanese": "水",
+  "romaji": "mizu",
+  "note": "o-mizu is the polite form used in restaurants",
+  "words": [
+   {
+    "r": "mizu",
+    "e": "water",
+    "t": "n"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 231,
+  "dir": "vocab",
+  "category": "Pack 2 Nouns",
+  "english": "tea",
+  "japanese": "お茶",
+  "romaji": "o-cha",
+  "note": "usually free and served automatically",
+  "words": [
+   {
+    "r": "o-cha",
+    "e": "tea",
+    "t": "n"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 232,
+  "dir": "vocab",
+  "category": "Pack 2 Nouns",
+  "english": "rice / meal",
+  "japanese": "ご飯",
+  "romaji": "gohan",
+  "note": "means both cooked rice and 'a meal' generally",
+  "words": [
+   {
+    "r": "gohan",
+    "e": "rice / meal",
+    "t": "n"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 233,
+  "dir": "vocab",
+  "category": "Pack 2 Nouns",
+  "english": "breakfast",
+  "japanese": "朝ご飯",
+  "romaji": "asagohan",
+  "note": "asa = morning",
+  "words": [
+   {
+    "r": "asagohan",
+    "e": "breakfast",
+    "t": "n"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 234,
+  "dir": "vocab",
+  "category": "Pack 2 Nouns",
+  "english": "lunch",
+  "japanese": "昼ご飯",
+  "romaji": "hirugohan",
+  "note": "hiru = midday",
+  "words": [
+   {
+    "r": "hirugohan",
+    "e": "lunch",
+    "t": "n"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 235,
+  "dir": "vocab",
+  "category": "Pack 2 Nouns",
+  "english": "dinner",
+  "japanese": "晩ご飯",
+  "romaji": "bangohan",
+  "note": "ban = evening",
+  "words": [
+   {
+    "r": "bangohan",
+    "e": "dinner",
+    "t": "n"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 236,
+  "dir": "vocab",
+  "category": "Pack 2 Nouns",
+  "english": "meat",
+  "japanese": "肉",
+  "romaji": "niku",
+  "note": "gyū-niku beef, tori-niku chicken, buta-niku pork",
+  "words": [
+   {
+    "r": "niku",
+    "e": "meat",
+    "t": "n"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 237,
+  "dir": "vocab",
+  "category": "Pack 2 Nouns",
+  "english": "fish",
+  "japanese": "魚",
+  "romaji": "sakana",
+  "note": "",
+  "words": [
+   {
+    "r": "sakana",
+    "e": "fish",
+    "t": "n"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 238,
+  "dir": "vocab",
+  "category": "Pack 2 Nouns",
+  "english": "vegetables",
+  "japanese": "野菜",
+  "romaji": "yasai",
+  "note": "",
+  "words": [
+   {
+    "r": "yasai",
+    "e": "vegetables",
+    "t": "n"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 239,
+  "dir": "vocab",
+  "category": "Pack 2 Nouns",
+  "english": "egg",
+  "japanese": "卵",
+  "romaji": "tamago",
+  "note": "",
+  "words": [
+   {
+    "r": "tamago",
+    "e": "egg",
+    "t": "n"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 240,
+  "dir": "vocab",
+  "category": "Pack 2 Nouns",
+  "english": "bread",
+  "japanese": "パン",
+  "romaji": "pan",
+  "note": "from Portuguese, not English",
+  "words": [
+   {
+    "r": "pan",
+    "e": "bread",
+    "t": "n"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 241,
+  "dir": "vocab",
+  "category": "Pack 2 Nouns",
+  "english": "milk",
+  "japanese": "牛乳",
+  "romaji": "gyūnyū",
+  "note": "miruku also understood",
+  "words": [
+   {
+    "r": "gyūnyū",
+    "e": "milk",
+    "t": "n"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 242,
+  "dir": "vocab",
+  "category": "Pack 2 Nouns",
+  "english": "station",
+  "japanese": "駅",
+  "romaji": "eki",
+  "note": "you'll see this kanji everywhere — 駅 = 站",
+  "words": [
+   {
+    "r": "eki",
+    "e": "station",
+    "t": "n"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 243,
+  "dir": "vocab",
+  "category": "Pack 2 Nouns",
+  "english": "train",
+  "japanese": "電車",
+  "romaji": "densha",
+  "note": "your son's favourite word, probably",
+  "words": [
+   {
+    "r": "densha",
+    "e": "train",
+    "t": "n"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 244,
+  "dir": "vocab",
+  "category": "Pack 2 Nouns",
+  "english": "bus",
+  "japanese": "バス",
+  "romaji": "basu",
+  "note": "",
+  "words": [
+   {
+    "r": "basu",
+    "e": "bus",
+    "t": "n"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 245,
+  "dir": "vocab",
+  "category": "Pack 2 Nouns",
+  "english": "car",
+  "japanese": "車",
+  "romaji": "kuruma",
+  "note": "also read sha in compounds",
+  "words": [
+   {
+    "r": "kuruma",
+    "e": "car",
+    "t": "n"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 246,
+  "dir": "vocab",
+  "category": "Pack 2 Nouns",
+  "english": "road / way",
+  "japanese": "道",
+  "romaji": "michi",
+  "note": "",
+  "words": [
+   {
+    "r": "michi",
+    "e": "road / way",
+    "t": "n"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 247,
+  "dir": "vocab",
+  "category": "Pack 2 Nouns",
+  "english": "shop",
+  "japanese": "店",
+  "romaji": "mise",
+  "note": "o-mise is the polite form",
+  "words": [
+   {
+    "r": "mise",
+    "e": "shop",
+    "t": "n"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 248,
+  "dir": "vocab",
+  "category": "Pack 2 Nouns",
+  "english": "room",
+  "japanese": "部屋",
+  "romaji": "heya",
+  "note": "o-heya at a hotel",
+  "words": [
+   {
+    "r": "heya",
+    "e": "room",
+    "t": "n"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 249,
+  "dir": "vocab",
+  "category": "Pack 2 Nouns",
+  "english": "key",
+  "japanese": "鍵",
+  "romaji": "kagi",
+  "note": "kagi o nakushimashita = I lost the key",
+  "words": [
+   {
+    "r": "kagi",
+    "e": "key",
+    "t": "n"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 250,
+  "dir": "vocab",
+  "category": "Pack 2 Nouns",
+  "english": "money",
+  "japanese": "お金",
+  "romaji": "o-kane",
+  "note": "almost always with the polite o-",
+  "words": [
+   {
+    "r": "o-kane",
+    "e": "money",
+    "t": "n"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 251,
+  "dir": "vocab",
+  "category": "Pack 2 Nouns",
+  "english": "ticket",
+  "japanese": "切符",
+  "romaji": "kippu",
+  "note": "for trains; chiketto for events",
+  "words": [
+   {
+    "r": "kippu",
+    "e": "ticket",
+    "t": "n"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 252,
+  "dir": "vocab",
+  "category": "Pack 2 Nouns",
+  "english": "luggage / bags",
+  "japanese": "荷物",
+  "romaji": "nimotsu",
+  "note": "o-nimotsu when staff say it",
+  "words": [
+   {
+    "r": "nimotsu",
+    "e": "luggage / bags",
+    "t": "n"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 253,
+  "dir": "vocab",
+  "category": "Pack 2 Nouns",
+  "english": "bag",
+  "japanese": "かばん",
+  "romaji": "kaban",
+  "note": "different from fukuro, a plastic/paper bag",
+  "words": [
+   {
+    "r": "kaban",
+    "e": "bag",
+    "t": "n"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 254,
+  "dir": "vocab",
+  "category": "Pack 2 Nouns",
+  "english": "mobile phone",
+  "japanese": "携帯",
+  "romaji": "keitai",
+  "note": "sumaho = smartphone",
+  "words": [
+   {
+    "r": "keitai",
+    "e": "mobile phone",
+    "t": "n"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 255,
+  "dir": "vocab",
+  "category": "Pack 2 Nouns",
+  "english": "weather",
+  "japanese": "天気",
+  "romaji": "tenki",
+  "note": "ii tenki desu ne = nice weather, isn't it",
+  "words": [
+   {
+    "r": "tenki",
+    "e": "weather",
+    "t": "n"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 256,
+  "dir": "vocab",
+  "category": "Pack 2 Nouns",
+  "english": "hospital",
+  "japanese": "病院",
+  "romaji": "byōin",
+  "note": "note: biyōin (with i) means hair salon",
+  "words": [
+   {
+    "r": "byōin",
+    "e": "hospital",
+    "t": "n"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 257,
+  "dir": "vocab",
+  "category": "Pack 2 Nouns",
+  "english": "medicine",
+  "japanese": "薬",
+  "romaji": "kusuri",
+  "note": "kusuriya / yakkyoku = pharmacy",
+  "words": [
+   {
+    "r": "kusuri",
+    "e": "medicine",
+    "t": "n"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 258,
+  "dir": "vocab",
+  "category": "Pack 2 Nouns",
+  "english": "friend",
+  "japanese": "友達",
+  "romaji": "tomodachi",
+  "note": "",
+  "words": [
+   {
+    "r": "tomodachi",
+    "e": "friend",
+    "t": "n"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 259,
+  "dir": "vocab",
+  "category": "Pack 2 Nouns",
+  "english": "seat",
+  "japanese": "席",
+  "romaji": "seki",
+  "note": "koko aite imasu ka = is this seat free",
+  "words": [
+   {
+    "r": "seki",
+    "e": "seat",
+    "t": "n"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 260,
+  "dir": "vocab",
+  "category": "Pack 3 Adjectives",
+  "english": "big",
+  "japanese": "大きい",
+  "romaji": "ōkii",
+  "note": "",
+  "words": [
+   {
+    "r": "ōkii",
+    "e": "big",
+    "t": "a"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 261,
+  "dir": "vocab",
+  "category": "Pack 3 Adjectives",
+  "english": "small",
+  "japanese": "小さい",
+  "romaji": "chiisai",
+  "note": "",
+  "words": [
+   {
+    "r": "chiisai",
+    "e": "small",
+    "t": "a"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 262,
+  "dir": "vocab",
+  "category": "Pack 3 Adjectives",
+  "english": "new",
+  "japanese": "新しい",
+  "romaji": "atarashii",
+  "note": "",
+  "words": [
+   {
+    "r": "atarashii",
+    "e": "new",
+    "t": "a"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 263,
+  "dir": "vocab",
+  "category": "Pack 3 Adjectives",
+  "english": "old (things)",
+  "japanese": "古い",
+  "romaji": "furui",
+  "note": "not used for people's age",
+  "words": [
+   {
+    "r": "furui",
+    "e": "old (things)",
+    "t": "a"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 264,
+  "dir": "vocab",
+  "category": "Pack 3 Adjectives",
+  "english": "expensive / tall",
+  "japanese": "高い",
+  "romaji": "takai",
+  "note": "one word covers both",
+  "words": [
+   {
+    "r": "takai",
+    "e": "expensive / tall",
+    "t": "a"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 265,
+  "dir": "vocab",
+  "category": "Pack 3 Adjectives",
+  "english": "cheap",
+  "japanese": "安い",
+  "romaji": "yasui",
+  "note": "",
+  "words": [
+   {
+    "r": "yasui",
+    "e": "cheap",
+    "t": "a"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 266,
+  "dir": "vocab",
+  "category": "Pack 3 Adjectives",
+  "english": "hot",
+  "japanese": "暑い",
+  "romaji": "atsui",
+  "note": "atsui also written 熱い for hot objects/drinks",
+  "words": [
+   {
+    "r": "atsui",
+    "e": "hot",
+    "t": "a"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 267,
+  "dir": "vocab",
+  "category": "Pack 3 Adjectives",
+  "english": "cold (weather)",
+  "japanese": "寒い",
+  "romaji": "samui",
+  "note": "for weather and how you feel",
+  "words": [
+   {
+    "r": "samui",
+    "e": "cold (weather)",
+    "t": "a"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 268,
+  "dir": "vocab",
+  "category": "Pack 3 Adjectives",
+  "english": "cold (to touch)",
+  "japanese": "冷たい",
+  "romaji": "tsumetai",
+  "note": "for drinks and objects, not weather",
+  "words": [
+   {
+    "r": "tsumetai",
+    "e": "cold (to touch)",
+    "t": "a"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 269,
+  "dir": "vocab",
+  "category": "Pack 3 Adjectives",
+  "english": "delicious",
+  "japanese": "おいしい",
+  "romaji": "oishii",
+  "note": "the single most useful compliment at a meal",
+  "words": [
+   {
+    "r": "oishii",
+    "e": "delicious",
+    "t": "a"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 270,
+  "dir": "vocab",
+  "category": "Pack 3 Adjectives",
+  "english": "sweet",
+  "japanese": "甘い",
+  "romaji": "amai",
+  "note": "",
+  "words": [
+   {
+    "r": "amai",
+    "e": "sweet",
+    "t": "a"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 271,
+  "dir": "vocab",
+  "category": "Pack 3 Adjectives",
+  "english": "salty",
+  "japanese": "しょっぱい",
+  "romaji": "shoppai",
+  "note": "shio = salt",
+  "words": [
+   {
+    "r": "shoppai",
+    "e": "salty",
+    "t": "a"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 272,
+  "dir": "vocab",
+  "category": "Pack 3 Adjectives",
+  "english": "sour",
+  "japanese": "酸っぱい",
+  "romaji": "suppai",
+  "note": "",
+  "words": [
+   {
+    "r": "suppai",
+    "e": "sour",
+    "t": "a"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 273,
+  "dir": "vocab",
+  "category": "Pack 3 Adjectives",
+  "english": "good / fine",
+  "japanese": "いい",
+  "romaji": "ii",
+  "note": "irregular: the negative is yokunai",
+  "words": [
+   {
+    "r": "ii",
+    "e": "good / fine",
+    "t": "a"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 274,
+  "dir": "vocab",
+  "category": "Pack 3 Adjectives",
+  "english": "bad",
+  "japanese": "悪い",
+  "romaji": "warui",
+  "note": "",
+  "words": [
+   {
+    "r": "warui",
+    "e": "bad",
+    "t": "a"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 275,
+  "dir": "vocab",
+  "category": "Pack 3 Adjectives",
+  "english": "fun / enjoyable",
+  "japanese": "楽しい",
+  "romaji": "tanoshii",
+  "note": "tanoshikatta desu = it was fun (past)",
+  "words": [
+   {
+    "r": "tanoshii",
+    "e": "fun / enjoyable",
+    "t": "a"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 276,
+  "dir": "vocab",
+  "category": "Pack 3 Adjectives",
+  "english": "happy / glad",
+  "japanese": "うれしい",
+  "romaji": "ureshii",
+  "note": "about a specific happy event",
+  "words": [
+   {
+    "r": "ureshii",
+    "e": "happy / glad",
+    "t": "a"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 277,
+  "dir": "vocab",
+  "category": "Pack 3 Adjectives",
+  "english": "tired",
+  "japanese": "疲れた",
+  "romaji": "tsukareta",
+  "note": "already past-tense in form — just say it as is",
+  "words": [
+   {
+    "r": "tsukareta",
+    "e": "tired",
+    "t": "a"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 278,
+  "dir": "vocab",
+  "category": "Pack 3 Adjectives",
+  "english": "busy",
+  "japanese": "忙しい",
+  "romaji": "isogashii",
+  "note": "",
+  "words": [
+   {
+    "r": "isogashii",
+    "e": "busy",
+    "t": "a"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 279,
+  "dir": "vocab",
+  "category": "Pack 3 Adjectives",
+  "english": "difficult",
+  "japanese": "難しい",
+  "romaji": "muzukashii",
+  "note": "",
+  "words": [
+   {
+    "r": "muzukashii",
+    "e": "difficult",
+    "t": "a"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 280,
+  "dir": "vocab",
+  "category": "Pack 3 Adjectives",
+  "english": "easy / simple",
+  "japanese": "簡単",
+  "romaji": "kantan",
+  "note": "kantan desu — needs desu, not an -i adjective",
+  "words": [
+   {
+    "r": "kantan",
+    "e": "easy / simple",
+    "t": "a"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 281,
+  "dir": "vocab",
+  "category": "Pack 3 Adjectives",
+  "english": "near",
+  "japanese": "近い",
+  "romaji": "chikai",
+  "note": "chikaku = nearby (noun form)",
+  "words": [
+   {
+    "r": "chikai",
+    "e": "near",
+    "t": "a"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 282,
+  "dir": "vocab",
+  "category": "Pack 3 Adjectives",
+  "english": "far",
+  "japanese": "遠い",
+  "romaji": "tōi",
+  "note": "",
+  "words": [
+   {
+    "r": "tōi",
+    "e": "far",
+    "t": "a"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 283,
+  "dir": "vocab",
+  "category": "Pack 3 Adjectives",
+  "english": "early / fast",
+  "japanese": "早い",
+  "romaji": "hayai",
+  "note": "also written 速い for speed",
+  "words": [
+   {
+    "r": "hayai",
+    "e": "early / fast",
+    "t": "a"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 284,
+  "dir": "vocab",
+  "category": "Pack 3 Adjectives",
+  "english": "late / slow",
+  "japanese": "遅い",
+  "romaji": "osoi",
+  "note": "",
+  "words": [
+   {
+    "r": "osoi",
+    "e": "late / slow",
+    "t": "a"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 285,
+  "dir": "vocab",
+  "category": "Pack 3 Adjectives",
+  "english": "quiet",
+  "japanese": "静か",
+  "romaji": "shizuka",
+  "note": "shizuka desu — needs desu",
+  "words": [
+   {
+    "r": "shizuka",
+    "e": "quiet",
+    "t": "a"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 286,
+  "dir": "vocab",
+  "category": "Pack 3 Adjectives",
+  "english": "noisy",
+  "japanese": "うるさい",
+  "romaji": "urusai",
+  "note": "",
+  "words": [
+   {
+    "r": "urusai",
+    "e": "noisy",
+    "t": "a"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 287,
+  "dir": "vocab",
+  "category": "Pack 3 Adjectives",
+  "english": "pretty / clean",
+  "japanese": "きれい",
+  "romaji": "kirei",
+  "note": "covers both beauty and cleanliness",
+  "words": [
+   {
+    "r": "kirei",
+    "e": "pretty / clean",
+    "t": "a"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 288,
+  "dir": "vocab",
+  "category": "Pack 3 Adjectives",
+  "english": "cute",
+  "japanese": "かわいい",
+  "romaji": "kawaii",
+  "note": "you'll hear this about your son constantly",
+  "words": [
+   {
+    "r": "kawaii",
+    "e": "cute",
+    "t": "a"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 289,
+  "dir": "vocab",
+  "category": "Pack 3 Adjectives",
+  "english": "amazing / wow",
+  "japanese": "すごい",
+  "romaji": "sugoi",
+  "note": "works as a standalone exclamation",
+  "words": [
+   {
+    "r": "sugoi",
+    "e": "amazing / wow",
+    "t": "a"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 290,
+  "dir": "vocab",
+  "category": "Pack 4 Function",
+  "english": "[topic marker]",
+  "japanese": "は",
+  "romaji": "wa",
+  "note": "Chinese topic-fronting: toire wa doko = 厕所，在哪里",
+  "words": [
+   {
+    "r": "wa",
+    "e": "[topic marker]",
+    "t": "p"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 291,
+  "dir": "vocab",
+  "category": "Pack 4 Function",
+  "english": "[subject marker]",
+  "japanese": "が",
+  "romaji": "ga",
+  "note": "marks who/what does the action, or what exists",
+  "words": [
+   {
+    "r": "ga",
+    "e": "[subject marker]",
+    "t": "p"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 292,
+  "dir": "vocab",
+  "category": "Pack 4 Function",
+  "english": "[object marker]",
+  "japanese": "を",
+  "romaji": "o",
+  "note": "marks what the verb acts on",
+  "words": [
+   {
+    "r": "o",
+    "e": "[object marker]",
+    "t": "p"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 293,
+  "dir": "vocab",
+  "category": "Pack 4 Function",
+  "english": "to / at / in [target]",
+  "japanese": "に",
+  "romaji": "ni",
+  "note": "direction, time, destination: eki ni ikimasu",
+  "words": [
+   {
+    "r": "ni",
+    "e": "to / at / in [target]",
+    "t": "p"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 294,
+  "dir": "vocab",
+  "category": "Pack 4 Function",
+  "english": "by / with / at [means or place]",
+  "japanese": "で",
+  "romaji": "de",
+  "note": "kādo de = by card; eki de = at the station",
+  "words": [
+   {
+    "r": "de",
+    "e": "by / with / at [means or place]",
+    "t": "p"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 295,
+  "dir": "vocab",
+  "category": "Pack 4 Function",
+  "english": "and / with",
+  "japanese": "と",
+  "romaji": "to",
+  "note": "joins nouns: otona to kodomo",
+  "words": [
+   {
+    "r": "to",
+    "e": "and / with",
+    "t": "p"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 296,
+  "dir": "vocab",
+  "category": "Pack 4 Function",
+  "english": "also / too",
+  "japanese": "も",
+  "romaji": "mo",
+  "note": "replaces wa or o: watashi mo = me too",
+  "words": [
+   {
+    "r": "mo",
+    "e": "also / too",
+    "t": "p"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 297,
+  "dir": "vocab",
+  "category": "Pack 4 Function",
+  "english": "from / because",
+  "japanese": "から",
+  "romaji": "kara",
+  "note": "nan-ji kara = from what time",
+  "words": [
+   {
+    "r": "kara",
+    "e": "from / because",
+    "t": "p"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 298,
+  "dir": "vocab",
+  "category": "Pack 4 Function",
+  "english": "until / as far as",
+  "japanese": "まで",
+  "romaji": "made",
+  "note": "nanji made = until what time",
+  "words": [
+   {
+    "r": "made",
+    "e": "until / as far as",
+    "t": "p"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 299,
+  "dir": "vocab",
+  "category": "Pack 4 Function",
+  "english": "of / 's [links nouns]",
+  "japanese": "の",
+  "romaji": "no",
+  "note": "kodomo-yō no shokki = tableware for children",
+  "words": [
+   {
+    "r": "no",
+    "e": "of / 's [links nouns]",
+    "t": "p"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 300,
+  "dir": "vocab",
+  "category": "Pack 4 Function",
+  "english": "what",
+  "japanese": "何",
+  "romaji": "nani / nan",
+  "note": "nan before desu/counters: nan desu ka",
+  "words": [
+   {
+    "r": "nani / nan",
+    "e": "what",
+    "t": "n"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 301,
+  "dir": "vocab",
+  "category": "Pack 4 Function",
+  "english": "who",
+  "japanese": "誰",
+  "romaji": "dare",
+  "note": "dare desu ka = who is it",
+  "words": [
+   {
+    "r": "dare",
+    "e": "who",
+    "t": "n"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 302,
+  "dir": "vocab",
+  "category": "Pack 4 Function",
+  "english": "when",
+  "japanese": "いつ",
+  "romaji": "itsu",
+  "note": "itsu desu ka = when is it",
+  "words": [
+   {
+    "r": "itsu",
+    "e": "when",
+    "t": "n"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 303,
+  "dir": "vocab",
+  "category": "Pack 4 Function",
+  "english": "how",
+  "japanese": "どう",
+  "romaji": "dō",
+  "note": "dō desu ka = how is it / how about it",
+  "words": [
+   {
+    "r": "dō",
+    "e": "how",
+    "t": "n"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 304,
+  "dir": "vocab",
+  "category": "Pack 4 Function",
+  "english": "how much (price)",
+  "japanese": "いくら",
+  "romaji": "ikura",
+  "note": "ikura desu ka = how much is it",
+  "words": [
+   {
+    "r": "ikura",
+    "e": "how much (price)",
+    "t": "n"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 305,
+  "dir": "vocab",
+  "category": "Pack 4 Function",
+  "english": "how long / how much",
+  "japanese": "どのくらい",
+  "romaji": "dono kurai",
+  "note": "for duration, distance, quantity",
+  "words": [
+   {
+    "r": "dono kurai",
+    "e": "how long / how much",
+    "t": "n"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 306,
+  "dir": "vocab",
+  "category": "Pack 4 Function",
+  "english": "that (near you)",
+  "japanese": "それ",
+  "romaji": "sore",
+  "note": "kore = this, sore = that, are = over there",
+  "words": [
+   {
+    "r": "sore",
+    "e": "that (near you)",
+    "t": "n"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 307,
+  "dir": "vocab",
+  "category": "Pack 4 Function",
+  "english": "that over there",
+  "japanese": "あれ",
+  "romaji": "are",
+  "note": "far from both speakers",
+  "words": [
+   {
+    "r": "are",
+    "e": "that over there",
+    "t": "n"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 308,
+  "dir": "vocab",
+  "category": "Pack 4 Function",
+  "english": "there (near you)",
+  "japanese": "そこ",
+  "romaji": "soko",
+  "note": "",
+  "words": [
+   {
+    "r": "soko",
+    "e": "there (near you)",
+    "t": "n"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 309,
+  "dir": "vocab",
+  "category": "Pack 4 Function",
+  "english": "over there",
+  "japanese": "あそこ",
+  "romaji": "asoko",
+  "note": "asoko desu = it's over there",
+  "words": [
+   {
+    "r": "asoko",
+    "e": "over there",
+    "t": "n"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 310,
+  "dir": "vocab",
+  "category": "Pack 4 Function",
+  "english": "but / however",
+  "japanese": "でも",
+  "romaji": "demo",
+  "note": "starts a sentence",
+  "words": [
+   {
+    "r": "demo",
+    "e": "but / however",
+    "t": "p"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 311,
+  "dir": "vocab",
+  "category": "Pack 4 Function",
+  "english": "so / therefore",
+  "japanese": "だから",
+  "romaji": "dakara",
+  "note": "",
+  "words": [
+   {
+    "r": "dakara",
+    "e": "so / therefore",
+    "t": "p"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 312,
+  "dir": "vocab",
+  "category": "Pack 4 Function",
+  "english": "and then / after that",
+  "japanese": "それから",
+  "romaji": "sorekara",
+  "note": "useful for listing what you need in order",
+  "words": [
+   {
+    "r": "sorekara",
+    "e": "and then / after that",
+    "t": "p"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 313,
+  "dir": "vocab",
+  "category": "Pack 4 Function",
+  "english": "but [soft]",
+  "japanese": "けど",
+  "romaji": "kedo",
+  "note": "often left trailing to soften: muzukashii kedo...",
+  "words": [
+   {
+    "r": "kedo",
+    "e": "but [soft]",
+    "t": "p"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 314,
+  "dir": "vocab",
+  "category": "Pack 4 Function",
+  "english": "and then [formal]",
+  "japanese": "そして",
+  "romaji": "soshite",
+  "note": "more written than spoken",
+  "words": [
+   {
+    "r": "soshite",
+    "e": "and then [formal]",
+    "t": "p"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 315,
+  "dir": "vocab",
+  "category": "Pack 4 Function",
+  "english": "now",
+  "japanese": "今",
+  "romaji": "ima",
+  "note": "ima daijōbu desu ka = is now okay",
+  "words": [
+   {
+    "r": "ima",
+    "e": "now",
+    "t": "n"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 316,
+  "dir": "vocab",
+  "category": "Pack 4 Function",
+  "english": "today",
+  "japanese": "今日",
+  "romaji": "kyō",
+  "note": "",
+  "words": [
+   {
+    "r": "kyō",
+    "e": "today",
+    "t": "n"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 317,
+  "dir": "vocab",
+  "category": "Pack 4 Function",
+  "english": "tomorrow",
+  "japanese": "明日",
+  "romaji": "ashita",
+  "note": "",
+  "words": [
+   {
+    "r": "ashita",
+    "e": "tomorrow",
+    "t": "n"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 318,
+  "dir": "vocab",
+  "category": "Pack 4 Function",
+  "english": "yesterday",
+  "japanese": "昨日",
+  "romaji": "kinō",
+  "note": "",
+  "words": [
+   {
+    "r": "kinō",
+    "e": "yesterday",
+    "t": "n"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 319,
+  "dir": "vocab",
+  "category": "Pack 4 Function",
+  "english": "later / afterwards",
+  "japanese": "後で",
+  "romaji": "ato de",
+  "note": "ato de ikimasu = I'll go later",
+  "words": [
+   {
+    "r": "ato de",
+    "e": "later / afterwards",
+    "t": "n"
    }
   ],
   "replyList": []

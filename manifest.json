@@ -1,7 +1,7 @@
 {
   "name": "ChatJPT",
   "short_name": "ChatJPT",
-  "description": "Japanese phrasebook with audio and spaced repetition — Japan Sep 2026",
+  "description": "Japanese phrasebook with audio and spaced repetition",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
