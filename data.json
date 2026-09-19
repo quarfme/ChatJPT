@@ -4247,5 +4247,1204 @@
    }
   ],
   "replyList": []
+ },
+ {
+  "id": 320,
+  "dir": "say",
+  "category": "Restaurant",
+  "english": "Can I get this takeaway?",
+  "japanese": "持ち帰りできますか？",
+  "romaji": "mochikaeri dekimasu ka?",
+  "note": "mochikaeri = takeaway/carrying home. Teikuauto (loanword) also seen on signage",
+  "words": [
+   {
+    "r": "mochikaeri",
+    "e": "takeaway",
+    "t": "n"
+   },
+   {
+    "r": "dekimasu",
+    "e": "can do",
+    "t": "v"
+   },
+   {
+    "r": "ka",
+    "e": "?",
+    "t": "p"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 321,
+  "dir": "say",
+  "category": "Restaurant",
+  "english": "This one, to take away, please",
+  "japanese": "これを持ち帰りでお願いします",
+  "romaji": "kore o mochikaeri de onegai shimasu",
+  "note": "Say once they've confirmed takeaway is possible",
+  "words": [
+   {
+    "r": "kore",
+    "e": "this",
+    "t": "n"
+   },
+   {
+    "r": "o",
+    "e": "[object]",
+    "t": "p"
+   },
+   {
+    "r": "mochikaeri",
+    "e": "takeaway",
+    "t": "n"
+   },
+   {
+    "r": "de",
+    "e": "as / in the form of",
+    "t": "p"
+   },
+   {
+    "r": "onegai shimasu",
+    "e": "please",
+    "t": "v"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 322,
+  "dir": "hear",
+  "category": "Restaurant",
+  "english": "For here, or to go?",
+  "japanese": "こちらで召し上がりますか、お持ち帰りですか？",
+  "romaji": "kochira de o-meshiagari desu ka, o-mochikaeri desu ka?",
+  "note": "Standard chain-store question. kochira de = for here / eating in",
+  "words": [
+   {
+    "r": "kochira de",
+    "e": "here [eating in]",
+    "t": "n"
+   },
+   {
+    "r": "o-meshiagari",
+    "e": "eating [polite]",
+    "t": "n"
+   },
+   {
+    "r": "desu ka",
+    "e": "is it?",
+    "t": "p"
+   },
+   {
+    "r": "o-mochikaeri",
+    "e": "takeaway [polite]",
+    "t": "n"
+   }
+  ],
+  "replyList": [
+   {
+    "id": 330,
+    "r": "kochira de",
+    "e": "for here",
+    "words": [
+     {
+      "r": "kochira de",
+      "e": "here / eating in",
+      "t": "n"
+     }
+    ]
+   },
+   {
+    "id": 331,
+    "r": "mochikaeri de onegai shimasu",
+    "e": "takeaway, please",
+    "words": [
+     {
+      "r": "mochikaeri de",
+      "e": "as takeaway",
+      "t": "n"
+     },
+     {
+      "r": "onegai shimasu",
+      "e": "please",
+      "t": "v"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 323,
+  "dir": "say",
+  "category": "Restaurant",
+  "english": "One [item], please",
+  "japanese": "[item]を一つください",
+  "romaji": "[item] o hitotsu kudasai",
+  "note": "hitotsu = one of a generic item (futatsu=2, mittsu=3). For a named menu item, just say the name then kudasai — e.g. chokorēto pon de ringu, kudasai",
+  "words": [
+   {
+    "r": "hitotsu",
+    "e": "one [thing]",
+    "t": "n"
+   },
+   {
+    "r": "kudasai",
+    "e": "please [give me]",
+    "t": "v"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 324,
+  "dir": "say",
+  "category": "Restaurant",
+  "english": "I'm waiting for my food",
+  "japanese": "料理を待っています",
+  "romaji": "ryōri o matte imasu",
+  "note": "matte imasu = the -te imasu 'currently in this state' pattern, same shape as yoyaku shite imasu",
+  "words": [
+   {
+    "r": "ryōri",
+    "e": "food / dish",
+    "t": "n"
+   },
+   {
+    "r": "o",
+    "e": "[object]",
+    "t": "p"
+   },
+   {
+    "r": "matte imasu",
+    "e": "am waiting",
+    "t": "v"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 325,
+  "dir": "hear",
+  "category": "Restaurant",
+  "english": "Is it not ready yet? / It'll be very soon",
+  "japanese": "まだですか？　もうすぐです",
+  "romaji": "mada desu ka? / mō sugu desu",
+  "note": "Either direction — you can ask it, or staff say mō sugu desu in reply",
+  "words": [
+   {
+    "r": "mada",
+    "e": "still / not yet",
+    "t": "n"
+   },
+   {
+    "r": "desu ka",
+    "e": "is it?",
+    "t": "p"
+   },
+   {
+    "r": "mō sugu",
+    "e": "very soon",
+    "t": "n"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 326,
+  "dir": "hear",
+  "category": "Hotel",
+  "english": "I'll go and come back / Go and come back safely",
+  "japanese": "行ってきます／行ってらっしゃい",
+  "romaji": "itte kimasu / itterasshai",
+  "note": "Guest says itte kimasu leaving; staff (esp. ryokan) reply itterasshai. A household pairing extended to guests who are staying, not just checked in",
+  "words": [
+   {
+    "r": "itte kimasu",
+    "e": "I'll go & return",
+    "t": "v"
+   },
+   {
+    "r": "itterasshai",
+    "e": "go & return safely",
+    "t": "v"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 327,
+  "dir": "hear",
+  "category": "Hotel",
+  "english": "Welcome back / I'm back",
+  "japanese": "お帰りなさい／ただいま",
+  "romaji": "o-kaeri nasai / tadaima",
+  "note": "Staff greet a returning guest with o-kaeri nasai; the guest replies tadaima. Same paired logic as itte kimasu/itterasshai",
+  "words": [
+   {
+    "r": "o-kaeri nasai",
+    "e": "welcome back",
+    "t": "v"
+   },
+   {
+    "r": "tadaima",
+    "e": "I'm back",
+    "t": "n"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 328,
+  "dir": "say",
+  "category": "Hotel",
+  "english": "Thank you for taking care of us (at checkout)",
+  "japanese": "お世話になりました",
+  "romaji": "o-sewa ni narimashita",
+  "note": "Said leaving after a multi-day stay — warmer and more fitting than plain arigatō, acknowledges the whole stay",
+  "words": [
+   {
+    "r": "o-sewa",
+    "e": "care / looking after",
+    "t": "n"
+   },
+   {
+    "r": "ni",
+    "e": "[target]",
+    "t": "p"
+   },
+   {
+    "r": "narimashita",
+    "e": "became [received]",
+    "t": "v"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 329,
+  "dir": "say",
+  "category": "Hotel",
+  "english": "Hello, this is [surname] from room [number]",
+  "japanese": "もしもし、[部屋番号]号室の[NAME]ですが",
+  "romaji": "moshi moshi, [room]-gōshitsu no [surname] desu ga",
+  "note": "moshi moshi is phone-only — never used face-to-face. Standard opener before a phone request",
+  "words": [
+   {
+    "r": "moshi moshi",
+    "e": "hello [phone only]",
+    "t": "n"
+   },
+   {
+    "r": "-gōshitsu",
+    "e": "room [number] suffix",
+    "t": "n"
+   },
+   {
+    "r": "no",
+    "e": "['s]",
+    "t": "p"
+   },
+   {
+    "r": "desu ga",
+    "e": "I am... [context-setter]",
+    "t": "p"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 332,
+  "dir": "say",
+  "category": "Hotel",
+  "english": "Could I have one more pillow?",
+  "japanese": "枕をもう一つ いただけますか？",
+  "romaji": "makura o mō hitotsu itadakemasu ka?",
+  "note": "onegai dekimasu ka works equally well here — itadakemasu and onegai dekimasu are near-interchangeable for a simple object",
+  "words": [
+   {
+    "r": "makura",
+    "e": "pillow",
+    "t": "n"
+   },
+   {
+    "r": "o",
+    "e": "[object]",
+    "t": "p"
+   },
+   {
+    "r": "mō hitotsu",
+    "e": "one more",
+    "t": "n"
+   },
+   {
+    "r": "itadakemasu",
+    "e": "may I receive",
+    "t": "v"
+   },
+   {
+    "r": "ka",
+    "e": "?",
+    "t": "p"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 333,
+  "dir": "hear",
+  "category": "Hotel",
+  "english": "How many do you need?",
+  "japanese": "何枚必要ですか？",
+  "romaji": "nan-mai hitsuyō desu ka?",
+  "note": "-mai = counter for flat things: pillows, sheets, towels, paper",
+  "words": [
+   {
+    "r": "nan-mai",
+    "e": "how many [flat things]",
+    "t": "n"
+   },
+   {
+    "r": "hitsuyō",
+    "e": "necessary",
+    "t": "a"
+   },
+   {
+    "r": "desu ka",
+    "e": "?",
+    "t": "p"
+   }
+  ],
+  "replyList": [
+   {
+    "id": 334,
+    "r": "hitotsu de daijōbu desu",
+    "e": "one is fine",
+    "words": [
+     {
+      "r": "hitotsu",
+      "e": "one",
+      "t": "n"
+     },
+     {
+      "r": "de daijōbu desu",
+      "e": "is fine as",
+      "t": "a"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 340,
+  "dir": "say",
+  "category": "Lost & found",
+  "english": "Toy train",
+  "japanese": "電車のおもちゃ",
+  "romaji": "densha no omocha",
+  "note": "densha (train) + no ('s) + omocha (toy) — literally 'train's toy'",
+  "words": [
+   {
+    "r": "densha",
+    "e": "train",
+    "t": "n"
+   },
+   {
+    "r": "no",
+    "e": "'s",
+    "t": "p"
+   },
+   {
+    "r": "omocha",
+    "e": "toy",
+    "t": "n"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 341,
+  "dir": "say",
+  "category": "Lost & found",
+  "english": "You haven't seen my son's toy train, have you?",
+  "japanese": "息子の電車のおもちゃを見かけませんでしたか？",
+  "romaji": "musuko no densha no omocha o mikakemasen deshita ka?",
+  "note": "Negative-question form sounds softer/more natural than a direct question, same pattern as kore karaku nai desu ka",
+  "words": [
+   {
+    "r": "musuko",
+    "e": "son",
+    "t": "n"
+   },
+   {
+    "r": "no",
+    "e": "'s",
+    "t": "p"
+   },
+   {
+    "r": "densha no omocha",
+    "e": "toy train",
+    "t": "n"
+   },
+   {
+    "r": "o",
+    "e": "[object]",
+    "t": "p"
+   },
+   {
+    "r": "mikakemasen deshita",
+    "e": "didn't happen to see",
+    "t": "v"
+   },
+   {
+    "r": "ka",
+    "e": "?",
+    "t": "p"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 342,
+  "dir": "say",
+  "category": "Lost & found",
+  "english": "Is this yours?",
+  "japanese": "これ、忘れ物ですか？",
+  "romaji": "kore, wasuremono desu ka?",
+  "note": "Literally 'is this a forgotten thing' — the natural way to ask without needing the word 'you' (anata sounds stiff between strangers)",
+  "words": [
+   {
+    "r": "kore",
+    "e": "this",
+    "t": "n"
+   },
+   {
+    "r": "wasuremono",
+    "e": "forgotten item",
+    "t": "n"
+   },
+   {
+    "r": "desu ka",
+    "e": "is it?",
+    "t": "p"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 343,
+  "dir": "say",
+  "category": "Lost & found",
+  "english": "Is there a lost-and-found?",
+  "japanese": "忘れ物の届けはありますか？",
+  "romaji": "wasuremono no todoke wa arimasu ka?",
+  "note": "todoke = a report/office for reporting something",
+  "words": [
+   {
+    "r": "wasuremono",
+    "e": "lost item",
+    "t": "n"
+   },
+   {
+    "r": "no",
+    "e": "of",
+    "t": "p"
+   },
+   {
+    "r": "todoke",
+    "e": "report office",
+    "t": "n"
+   },
+   {
+    "r": "wa",
+    "e": "[topic]",
+    "t": "p"
+   },
+   {
+    "r": "arimasu",
+    "e": "exist",
+    "t": "v"
+   },
+   {
+    "r": "ka",
+    "e": "?",
+    "t": "p"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 344,
+  "dir": "say",
+  "category": "Lost & found",
+  "english": "My son is lost",
+  "japanese": "子どもが迷子になりました",
+  "romaji": "kodomo ga maigo ni narimashita",
+  "note": "maigo = lost child (a set term). Say clearly and urgently to any staff member",
+  "words": [
+   {
+    "r": "kodomo",
+    "e": "child",
+    "t": "n"
+   },
+   {
+    "r": "ga",
+    "e": "[subject]",
+    "t": "p"
+   },
+   {
+    "r": "maigo",
+    "e": "lost child",
+    "t": "n"
+   },
+   {
+    "r": "ni narimashita",
+    "e": "became",
+    "t": "v"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 350,
+  "dir": "say",
+  "category": "Driving",
+  "english": "I got the ticket wrong / bought the wrong ticket",
+  "japanese": "切符を間違えました",
+  "romaji": "kippu o machigaemashita",
+  "note": "Lead with sumimasen. machigaeru = to make a mistake",
+  "words": [
+   {
+    "r": "kippu",
+    "e": "ticket",
+    "t": "n"
+   },
+   {
+    "r": "o",
+    "e": "[object]",
+    "t": "p"
+   },
+   {
+    "r": "machigaemashita",
+    "e": "made a mistake",
+    "t": "v"
+   }
+  ],
+  "replyList": [
+   {
+    "id": 400,
+    "r": "machigaemashita, sumimasen",
+    "e": "my mistake, sorry",
+    "words": [
+     {
+      "r": "machigaemashita",
+      "e": "made a mistake",
+      "t": "v"
+     },
+     {
+      "r": "sumimasen",
+      "e": "sorry",
+      "t": "v"
+     }
+    ]
+   },
+   {
+    "id": 401,
+    "r": "kōkan onegai shimasu",
+    "e": "an exchange, please",
+    "words": [
+     {
+      "r": "kōkan",
+      "e": "exchange",
+      "t": "n"
+     },
+     {
+      "r": "onegai shimasu",
+      "e": "please",
+      "t": "v"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 351,
+  "dir": "say",
+  "category": "Driving",
+  "english": "Can I exchange it? / change it? / get a refund?",
+  "japanese": "交換できますか？／変更できますか？／払い戻しできますか？",
+  "romaji": "kōkan dekimasu ka? / henkō dekimasu ka? / haraimodoshi dekimasu ka?",
+  "note": "kōkan=exchange, henkō=change/alter (standard ticketing word), haraimodoshi=refund",
+  "words": [
+   {
+    "r": "kōkan",
+    "e": "exchange",
+    "t": "n"
+   },
+   {
+    "r": "henkō",
+    "e": "change / alteration",
+    "t": "n"
+   },
+   {
+    "r": "haraimodoshi",
+    "e": "refund",
+    "t": "n"
+   },
+   {
+    "r": "dekimasu ka",
+    "e": "is it possible?",
+    "t": "v"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 352,
+  "dir": "say",
+  "category": "Driving",
+  "english": "Fare adjustment, please",
+  "japanese": "乗り越し精算お願いします",
+  "romaji": "norikoshi seisan onegai shimasu",
+  "note": "For riding past your paid fare. Most JR stations have a 精算機 seisanki fare-adjustment machine near the gates, no talking needed",
+  "words": [
+   {
+    "r": "norikoshi",
+    "e": "fare overrun",
+    "t": "n"
+   },
+   {
+    "r": "seisan",
+    "e": "settlement/adjustment",
+    "t": "n"
+   },
+   {
+    "r": "onegai shimasu",
+    "e": "please",
+    "t": "v"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 353,
+  "dir": "say",
+  "category": "Driving",
+  "english": "I'd like to change the Shinkansen time to earlier",
+  "japanese": "もっと早い時間に変更できますか？",
+  "romaji": "motto hayai jikan ni henkō dekimasu ka?",
+  "note": "Preferred phrasing at a ticket counter — henkō is standard ticketing language. Hold up the ticket: kono kippu (this ticket)",
+  "words": [
+   {
+    "r": "motto",
+    "e": "more",
+    "t": "n"
+   },
+   {
+    "r": "hayai",
+    "e": "early / fast",
+    "t": "a"
+   },
+   {
+    "r": "jikan",
+    "e": "time",
+    "t": "n"
+   },
+   {
+    "r": "ni",
+    "e": "to [target]",
+    "t": "p"
+   },
+   {
+    "r": "henkō dekimasu",
+    "e": "can be changed",
+    "t": "v"
+   },
+   {
+    "r": "ka",
+    "e": "?",
+    "t": "p"
+   }
+  ],
+  "replyList": [
+   {
+    "id": 402,
+    "r": "hai, onegai shimasu",
+    "e": "yes, please",
+    "words": [
+     {
+      "r": "hai",
+      "e": "yes",
+      "t": "n"
+     },
+     {
+      "r": "onegai shimasu",
+      "e": "please",
+      "t": "v"
+     }
+    ]
+   },
+   {
+    "id": 403,
+    "r": "wakarimashita, arigatō gozaimasu",
+    "e": "understood, thank you",
+    "words": [
+     {
+      "r": "wakarimashita",
+      "e": "understood",
+      "t": "v"
+     },
+     {
+      "r": "arigatō gozaimasu",
+      "e": "thank you",
+      "t": "v"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 354,
+  "dir": "hear",
+  "category": "Driving",
+  "english": "Please pay the difference / That time is fully booked",
+  "japanese": "差額をお支払いください／その時間は満席です",
+  "romaji": "sashigaku o o-shiharai kudasai / sono jikan wa manseki desu",
+  "note": "sashigaku = the fare difference. manseki you already know from restaurant reservations",
+  "words": [
+   {
+    "r": "sashigaku",
+    "e": "fare difference",
+    "t": "n"
+   },
+   {
+    "r": "o-shiharai kudasai",
+    "e": "please pay",
+    "t": "v"
+   },
+   {
+    "r": "manseki",
+    "e": "fully booked",
+    "t": "n"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 355,
+  "dir": "say",
+  "category": "Driving",
+  "english": "Child seat / I have a child seat reserved",
+  "japanese": "チャイルドシート／チャイルドシートを予約しています",
+  "romaji": "chairudo shīto / chairudo shīto o yoyaku shite imasu",
+  "note": "Loanword. jidō shīto is the more formal/legal equivalent term. jūnia shīto is the backless booster for older kids — not needed at toddler age",
+  "words": [
+   {
+    "r": "chairudo shīto",
+    "e": "child seat",
+    "t": "n"
+   },
+   {
+    "r": "o",
+    "e": "[object]",
+    "t": "p"
+   },
+   {
+    "r": "yoyaku shite imasu",
+    "e": "have reserved",
+    "t": "v"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 360,
+  "dir": "say",
+  "category": "General",
+  "english": "Do you have size [x] cm?",
+  "japanese": "[size]センチはありますか？",
+  "romaji": "[size] senchi wa arimasu ka?",
+  "note": "Japan sizes shoes in cm, not US sizing. US 8.5 men's ≈ 26.5cm, US 8.5 women's ≈ 25.5cm",
+  "words": [
+   {
+    "r": "senchi",
+    "e": "cm",
+    "t": "n"
+   },
+   {
+    "r": "wa",
+    "e": "[topic]",
+    "t": "p"
+   },
+   {
+    "r": "arimasu",
+    "e": "have / exist",
+    "t": "v"
+   },
+   {
+    "r": "ka",
+    "e": "?",
+    "t": "p"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 361,
+  "dir": "say",
+  "category": "General",
+  "english": "Could you measure my shoe size?",
+  "japanese": "靴のサイズを測ってもらえますか？",
+  "romaji": "kutsu no saizu o hakatte moraemasu ka?",
+  "note": "Sidesteps the cm conversion — most shops have a foot-measuring tool",
+  "words": [
+   {
+    "r": "kutsu",
+    "e": "shoes",
+    "t": "n"
+   },
+   {
+    "r": "saizu",
+    "e": "size",
+    "t": "n"
+   },
+   {
+    "r": "o",
+    "e": "[object]",
+    "t": "p"
+   },
+   {
+    "r": "hakatte moraemasu",
+    "e": "could you measure",
+    "t": "v"
+   },
+   {
+    "r": "ka",
+    "e": "?",
+    "t": "p"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 362,
+  "dir": "hear",
+  "category": "General",
+  "english": "Will you try it on?",
+  "japanese": "履きますか？",
+  "romaji": "hakimasu ka?",
+  "note": "haku is the specific verb for wearing things you step into: shoes, pants, skirts — different from kiru for shirts/jackets",
+  "words": [
+   {
+    "r": "hakimasu",
+    "e": "will wear [step into]",
+    "t": "v"
+   },
+   {
+    "r": "ka",
+    "e": "?",
+    "t": "p"
+   }
+  ],
+  "replyList": [
+   {
+    "id": 404,
+    "r": "hai",
+    "e": "yes, I will",
+    "words": [
+     {
+      "r": "hai",
+      "e": "yes",
+      "t": "n"
+     }
+    ]
+   },
+   {
+    "id": 405,
+    "r": "iie, kekkō desu",
+    "e": "no, that's fine",
+    "words": [
+     {
+      "r": "iie",
+      "e": "no",
+      "t": "n"
+     },
+     {
+      "r": "kekkō desu",
+      "e": "that's fine [firm]",
+      "t": "a"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": 370,
+  "dir": "say",
+  "category": "Disney",
+  "english": "Can we sit in the very front row?",
+  "japanese": "一番前の席に座れますか？",
+  "romaji": "ichiban mae no seki ni suwaremasu ka?",
+  "note": "ichiban = number one/the most, so ichiban mae = the very front",
+  "words": [
+   {
+    "r": "ichiban",
+    "e": "the most / number one",
+    "t": "n"
+   },
+   {
+    "r": "mae",
+    "e": "front",
+    "t": "n"
+   },
+   {
+    "r": "no",
+    "e": "of",
+    "t": "p"
+   },
+   {
+    "r": "seki",
+    "e": "seat",
+    "t": "n"
+   },
+   {
+    "r": "ni",
+    "e": "[location]",
+    "t": "p"
+   },
+   {
+    "r": "suwaremasu",
+    "e": "can sit",
+    "t": "v"
+   },
+   {
+    "r": "ka",
+    "e": "?",
+    "t": "p"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 371,
+  "dir": "say",
+  "category": "Disney",
+  "english": "Can we choose our seat?",
+  "japanese": "席は選べますか？",
+  "romaji": "seki wa erabemasu ka?",
+  "note": "Worth asking first — many high-throughput rides assign seats automatically with no choice",
+  "words": [
+   {
+    "r": "seki",
+    "e": "seat",
+    "t": "n"
+   },
+   {
+    "r": "wa",
+    "e": "[topic]",
+    "t": "p"
+   },
+   {
+    "r": "erabemasu",
+    "e": "can choose",
+    "t": "v"
+   },
+   {
+    "r": "ka",
+    "e": "?",
+    "t": "p"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 372,
+  "dir": "say",
+  "category": "Disney",
+  "english": "Waiting for the purple / blue one",
+  "japanese": "紫のを待っています／青いのを待っています",
+  "romaji": "murasaki no o matte imasu / aoi no o matte imasu",
+  "note": "no stands in for a dropped noun after a colour — 'the [x] one'. ao historically also covers what English calls green (e.g. traffic lights)",
+  "words": [
+   {
+    "r": "murasaki",
+    "e": "purple",
+    "t": "n"
+   },
+   {
+    "r": "aoi",
+    "e": "blue",
+    "t": "a"
+   },
+   {
+    "r": "no",
+    "e": "the [x] one",
+    "t": "p"
+   },
+   {
+    "r": "o",
+    "e": "[object]",
+    "t": "p"
+   },
+   {
+    "r": "matte imasu",
+    "e": "am waiting",
+    "t": "v"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 380,
+  "dir": "vocab",
+  "category": "Pack 5 Everyday",
+  "english": "I didn't know (a fact)",
+  "japanese": "知りませんでした",
+  "romaji": "shirimasen deshita",
+  "note": "shiru (to know) + polite past negative. Different from wakarimasen deshita (didn't understand/realize)",
+  "words": [
+   {
+    "r": "shirimasen deshita",
+    "e": "didn't know",
+    "t": "v"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 381,
+  "dir": "vocab",
+  "category": "Pack 5 Everyday",
+  "english": "I didn't understand / realize",
+  "japanese": "わかりませんでした",
+  "romaji": "wakarimasen deshita",
+  "note": "About grasping something, not about an unknown fact — contrast with shirimasen deshita",
+  "words": [
+   {
+    "r": "wakarimasen deshita",
+    "e": "didn't understand",
+    "t": "v"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 382,
+  "dir": "vocab",
+  "category": "Pack 5 Everyday",
+  "english": "Closed today",
+  "japanese": "本日はお休みです／今日は休みです",
+  "romaji": "honjitsu wa o-yasumi desu / kyō wa yasumi desu",
+  "note": "First is formal, second casual. yasumu = to rest, you already have this verb",
+  "words": [
+   {
+    "r": "honjitsu wa o-yasumi desu",
+    "e": "closed today [formal]",
+    "t": "n"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 383,
+  "dir": "vocab",
+  "category": "Pack 5 Everyday",
+  "english": "'In preparation' (temporarily closed sign)",
+  "japanese": "準備中",
+  "romaji": "junbi-chū",
+  "note": "Very common between lunch and dinner service — worth recognising on sight",
+  "words": [
+   {
+    "r": "junbi-chū",
+    "e": "in preparation / temporarily closed",
+    "t": "n"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 384,
+  "dir": "vocab",
+  "category": "Pack 5 Everyday",
+  "english": "Necessary / not necessary",
+  "japanese": "必要です／必要ありません",
+  "romaji": "hitsuyō desu / hitsuyō arimasen",
+  "note": "For requirements/situations. Use irimasu/irimasen instead for physical objects",
+  "words": [
+   {
+    "r": "hitsuyō desu",
+    "e": "necessary",
+    "t": "a"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 385,
+  "dir": "vocab",
+  "category": "Pack 5 Everyday",
+  "english": "Zero",
+  "japanese": "ゼロ／零",
+  "romaji": "zero / rei",
+  "note": "zero = everyday use (phone numbers, prices). rei = formal/technical, e.g. temperature",
+  "words": [
+   {
+    "r": "zero",
+    "e": "zero",
+    "t": "n"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 386,
+  "dir": "vocab",
+  "category": "Pack 5 Everyday",
+  "english": "Room",
+  "japanese": "部屋／お部屋",
+  "romaji": "heya / o-heya",
+  "note": "o-heya is the polite form staff use, or when you want to be extra polite yourself",
+  "words": [
+   {
+    "r": "heya",
+    "e": "room",
+    "t": "n"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 387,
+  "dir": "vocab",
+  "category": "Pack 5 Everyday",
+  "english": "Blue",
+  "japanese": "青／青い",
+  "romaji": "ao / aoi",
+  "note": "ao historically also covers what English calls green — e.g. traffic lights are ao",
+  "words": [
+   {
+    "r": "aoi",
+    "e": "blue",
+    "t": "a"
+   }
+  ],
+  "replyList": []
+ },
+ {
+  "id": 388,
+  "dir": "vocab",
+  "category": "Pack 5 Everyday",
+  "english": "One person / one more person (polite)",
+  "japanese": "一人です／お一人様",
+  "romaji": "hitori desu / o-hitori-sama",
+  "note": "hitori and futari (2) are irregular; from 3 up, -nin and the more polite -mei both work (san-nin=san-mei)",
+  "words": [
+   {
+    "r": "hitori desu",
+    "e": "one person",
+    "t": "n"
+   }
+  ],
+  "replyList": []
  }
 ]

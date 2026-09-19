@@ -1,4 +1,4 @@
-const CACHE_VERSION = "chatjpt-v7";
+const CACHE_VERSION = "chatjpt-v8";
 const CORE = ["./", "./index.html", "./data.json", "./manifest.json", "./icon-192.png", "./icon-512.png"];
 self.addEventListener("install", (e) => {
   e.waitUntil(caches.open(CACHE_VERSION).then(async (cache) => {
